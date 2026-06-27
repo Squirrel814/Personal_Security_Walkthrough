@@ -6,8 +6,8 @@ A calm, beginner-friendly, open-source guide for documenting and investigating s
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/Docs-CC%20BY--SA%204.0-blue.svg)](LICENSE)
 
 **Repository:** [github.com/Squirrel814/Personal_Security_Walkthrough](https://github.com/Squirrel814/Personal_Security_Walkthrough)  
-**Part of:** [Interwoven Projects Community](https://github.com/Squirrel814/Interwoven-Projects-Community)  
-**Hub:** [Interwoven-Education](https://github.com/Squirrel814/Interwoven-Education) (Cybersecurity pathway)
+**Part of:** [Interwoven Projects Community](https://github.com/Interwoven-Projects/Interwoven-Projects-Community)  
+**Hub:** [Interwoven-Education](https://github.com/Interwoven-Projects/Interwoven-Education) (Cybersecurity pathway)
 
 **This is educational self-help.** It is not legal advice, not certified digital forensics, and not a substitute for professional incident response.
 
