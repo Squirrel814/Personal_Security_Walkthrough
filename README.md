@@ -79,7 +79,7 @@ Investigation_YYYY-MM-DD/
 
 If you see confirmed data theft, financial impact, sophisticated persistence, or feel personally targeted — **stop DIY work**.
 
-1. **[When & How to Escalate](Start-Guide/When-and-How_to-Escalate.md)** — includes a **Mermaid decision flowchart** and evidence-prep checklist
+1. **[When & How to Escalate](Start-Guide/When-and-How_to-Escalate.md)** — includes an **escalate infographic**, Mermaid flowchart, and evidence-prep checklist
 2. **[Choosing the Right Professional Help](Start-Guide/Choosing-the-Right-Professional-Help.md)** — incident response vs. law enforcement vs. consultant vs. bank
 
 Your log, inventory, and captures are exactly what professionals need.
@@ -91,6 +91,8 @@ Your log, inventory, and captures are exactly what professionals need.
 ![Beginner Security Investigation — First Steps](Infograph_First-Steps.jpg)
 
 ![Investigation workflow — continued steps](Infograph_First-Steps_2.jpg)
+
+![When to Escalate — decision flowchart](Infograph_When-to-Escalate.jpg)
 
 ---
 
@@ -109,7 +111,9 @@ Personal_Security_Walkthrough/
 │   ├── When-and-How_to-Escalate.md      ← Mermaid escalate flowchart (v1.2)
 │   ├── Choosing-the-Right-Professional-Help.md
 │   └── shared-templates/{templates,examples}/
-└── Infograph_*.jpg
+├── Infograph_First-Steps*.jpg
+├── Infograph_When-to-Escalate.jpg
+└── Infograph_When-to-Escalate.svg
 ```
 
 ---

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280" role="img" aria-label="When to Escalate decision flowchart">
+  <defs>
+    <style>
+      .title { font: 700 22px system-ui, Segoe UI, sans-serif; fill: #1a3a4a; }
+      .subtitle { font: 14px system-ui, Segoe UI, sans-serif; fill: #4a6a7a; }
+      .box { fill: #e8f4f0; stroke: #2d8a6e; stroke-width: 2; }
+      .diamond { fill: #e3f0fa; stroke: #2b6cb0; stroke-width: 2; }
+      .escalate { fill: #d4edda; stroke: #28a745; stroke-width: 2; }
+      .monitor { fill: #f0f4f8; stroke: #6c8a9a; stroke-width: 2; }
+      .label { font: 13px system-ui, Segoe UI, sans-serif; fill: #1a2a3a; }
+      .small { font: 11px system-ui, Segoe UI, sans-serif; fill: #4a5a6a; }
+      .arrow { stroke: #5a7a8a; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+      .footer { font: 12px system-ui, Segoe UI, sans-serif; fill: #6a7a8a; }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#5a7a8a"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="1280" fill="#ffffff"/>
+  <text x="360" y="42" text-anchor="middle" class="title">When to Escalate</text>
+  <text x="360" y="68" text-anchor="middle" class="subtitle">Personal Security Investigation</text>
+
+  <!-- Start -->
+  <rect x="210" y="90" width="300" height="44" rx="10" class="box"/>
+  <text x="360" y="118" text-anchor="middle" class="label">Start: Review your findings</text>
+  <line x1="360" y1="134" x2="360" y2="158" class="arrow"/>
+
+  <!-- Q1 -->
+  <polygon points="360,158 500,218 360,278 220,218" class="diamond"/>
+  <text x="360" y="212" text-anchor="middle" class="label">Data theft, financial loss,</text>
+  <text x="360" y="230" text-anchor="middle" class="label">or ransomware?</text>
+  <text x="505" y="218" class="small">Yes</text>
+  <line x1="500" y1="218" x2="580" y2="218" class="arrow"/>
+  <rect x="580" y="196" width="120" height="44" rx="8" class="escalate"/>
+  <text x="640" y="214" text-anchor="middle" class="small">Escalate</text>
+  <text x="640" y="228" text-anchor="middle" class="small">immediately</text>
+  <text x="360" y="295" class="small">No</text>
+  <line x1="360" y1="278" x2="360" y2="318" class="arrow"/>
+
+  <!-- Q2 -->
+  <polygon points="360,318 500,378 360,438 220,378" class="diamond"/>
+  <text x="360" y="372" text-anchor="middle" class="label">Persistence +</text>
+  <text x="360" y="390" text-anchor="middle" class="label">network beaconing?</text>
+  <line x1="500" y1="378" x2="580" y2="378" class="arrow"/>
+  <rect x="580" y="356" width="120" height="44" rx="8" class="escalate"/>
+  <text x="640" y="374" text-anchor="middle" class="small">Escalate</text>
+  <text x="640" y="388" text-anchor="middle" class="small">(strong rec.)</text>
+  <line x1="360" y1="438" x2="360" y2="478" class="arrow"/>
+
+  <!-- Q3 -->
+  <polygon points="360,478 500,538 360,598 220,538" class="diamond"/>
+  <text x="360" y="532" text-anchor="middle" class="label">Personally targeted</text>
+  <text x="360" y="550" text-anchor="middle" class="label">or feel unsafe?</text>
+  <line x1="500" y1="538" x2="580" y2="538" class="arrow"/>
+  <rect x="580" y="516" width="120" height="44" rx="8" class="escalate"/>
+  <text x="640" y="542" text-anchor="middle" class="small">Escalate</text>
+  <line x1="360" y1="598" x2="360" y2="638" class="arrow"/>
+
+  <!-- Q4 -->
+  <polygon points="360,638 500,698 360,758 220,698" class="diamond"/>
+  <text x="360" y="688" text-anchor="middle" class="label">Multiple timestomped files +</text>
+  <text x="360" y="706" text-anchor="middle" class="label">scripts + odd network?</text>
+  <line x1="500" y1="698" x2="580" y2="698" class="arrow"/>
+  <rect x="580" y="676" width="120" height="52" rx="8" class="escalate"/>
+  <text x="640" y="696" text-anchor="middle" class="small">Consider</text>
+  <text x="640" y="712" text-anchor="middle" class="small">escalating</text>
+  <line x1="360" y1="758" x2="360" y2="798" class="arrow"/>
+
+  <!-- Q5 -->
+  <polygon points="360,798 500,858 360,918 220,858" class="diamond"/>
+  <text x="360" y="852" text-anchor="middle" class="label">Still unsure after</text>
+  <text x="360" y="870" text-anchor="middle" class="label">reviewing everything?</text>
+  <line x1="500" y1="858" x2="580" y2="858" class="arrow"/>
+  <rect x="580" y="836" width="120" height="44" rx="8" class="escalate"/>
+  <text x="640" y="862" text-anchor="middle" class="small">Escalate</text>
+  <line x1="360" y1="918" x2="360" y2="958" class="arrow"/>
+
+  <!-- Monitor -->
+  <rect x="210" y="958" width="300" height="52" rx="10" class="monitor"/>
+  <text x="360" y="980" text-anchor="middle" class="label">Continue light monitoring</text>
+  <text x="360" y="998" text-anchor="middle" class="label">or close investigation</text>
+
+  <!-- Prepare box -->
+  <rect x="40" y="1040" width="640" height="72" rx="10" class="box"/>
+  <text x="360" y="1068" text-anchor="middle" class="label">All Escalate paths → Prepare evidence package</text>
+  <text x="360" y="1090" text-anchor="middle" class="small">investigation log + inventory + captures → Choosing Professional Help</text>
+
+  <text x="360" y="1145" text-anchor="middle" class="footer">Document first. Not legal advice.</text>
+  <text x="360" y="1165" text-anchor="middle" class="footer">Personal Security Walkthrough — Interwoven Projects Community</text>
+</svg>

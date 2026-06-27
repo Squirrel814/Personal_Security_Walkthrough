@@ -77,6 +77,12 @@ Quick list (in rough order of severity):
 
 Use this section when you have finished your initial documentation and want a clear yes/no path to escalation.
 
+### Infographic (image)
+
+![When to Escalate — decision flowchart](../Infograph_When-to-Escalate.jpg)
+
+*Text-accurate version also available as [Infograph_When-to-Escalate.svg](../Infograph_When-to-Escalate.svg) (exact labels for screen readers and printing).*
+
 ### Visual flowchart (Mermaid)
 
 GitHub and many markdown viewers render this diagram automatically:
@@ -127,12 +133,6 @@ Start
     ├── Yes → Escalate (better safe than sorry)
     └── No → Continue monitoring or close investigation
 ```
-
-### Custom infographic (optional)
-
-If you want a printable poster or slide, use this image-generation prompt in any image tool:
-
-> Professional, calm decision flowchart titled **"When to Escalate: Personal Security Investigation"**. Clean modern design with blue and green security theme (not alarmist red). Rounded boxes connected by arrows. Decision diamonds for yes/no questions matching: data theft/financial loss, persistence+beaconing, personal targeting, multiple file+network red flags, still unsure. End states: "Escalate — prepare evidence package" and "Continue light monitoring". Footer text: "Document first. Not legal advice." High readability for beginners. No logos. Flat infographic style.
 
 Organize your files using the [Project Structure Recommendation](shared-templates/templates/project_structure_recommendation.md) before handing off evidence.
 
