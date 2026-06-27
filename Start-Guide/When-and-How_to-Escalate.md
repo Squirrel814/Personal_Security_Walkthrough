@@ -1,7 +1,7 @@
 # When & How to Escalate
 
 **Personal Security Investigation Framework**  
-Version 1.1 | Cross-Platform
+Version 1.2 | Cross-Platform
 
 This guide helps you decide **when** it is time to stop DIY investigation and get professional help, and **how** to do it effectively while preserving the value of everything you have already documented.
 
@@ -60,17 +60,49 @@ Create a short 1–2 page summary with these sections:
 This summary helps busy professionals quickly understand the situation.
 
 ### 3. Decide Who to Contact
-Common options (in rough order of severity):
 
-- **Local law enforcement** (non-emergency line or cybercrime unit) — good for stalking/harassment/targeted activity.
+See **[Choosing the Right Professional Help](Choosing-the-Right-Professional-Help.md)** for a full comparison (incident response vs. law enforcement vs. consultant vs. financial institutions).
+
+Quick list (in rough order of severity):
+
+- **Your bank / financial institutions** — if money or accounts are involved (often do this immediately).
+- **Professional incident response / digital forensics company** — financial loss, ransomware, sophisticated malware.
+- **Local law enforcement** (non-emergency line or cybercrime unit) — stalking, harassment, targeted activity.
 - **FBI Internet Crime Complaint Center (IC3)** or equivalent in your country.
-- **Professional incident response / digital forensics company** — best if there is financial loss or sophisticated malware.
-- **Your bank / financial institutions** — if money or accounts are involved.
-- **Trusted IT professional or cybersecurity consultant** you already know.
+- **Trusted IT professional or cybersecurity consultant** you already know — triage and second opinion.
 
 ---
 
-## Decision Flowchart (Text Version)
+## Decision Flowchart
+
+Use this section when you have finished your initial documentation and want a clear yes/no path to escalation.
+
+### Visual flowchart (Mermaid)
+
+GitHub and many markdown viewers render this diagram automatically:
+
+```mermaid
+flowchart TD
+    A([Start: Review your findings]) --> B{Data theft, financial loss,<br/>or ransomware?}
+    B -->|Yes| E1[Escalate immediately<br/>Prepare evidence package]
+    B -->|No| C{Confirmed persistence +<br/>ongoing network beaconing?}
+    C -->|Yes| E2[Escalate — strong recommendation]
+    C -->|No| D{Personally targeted<br/>or feel unsafe?}
+    D -->|Yes| E3[Escalate]
+    D -->|No| F{Multiple future-timestamp files +<br/>suspicious scripts + odd network?}
+    F -->|Yes| E4[Consider escalating<br/>especially if activity continues]
+    F -->|No| G{Still unsure after<br/>reviewing everything?}
+    G -->|Yes| E5[Escalate — better safe than sorry]
+    G -->|No| M[Continue light monitoring<br/>or close investigation]
+    E1 --> P[Prepare package +<br/>Choosing Professional Help]
+    E2 --> P
+    E3 --> P
+    E4 --> P
+    E5 --> P
+    P --> H[See How to Prepare above]
+```
+
+### Text version (copy-friendly)
 
 ```
 Start
@@ -96,7 +128,13 @@ Start
     └── No → Continue monitoring or close investigation
 ```
 
-A visual flowchart (image + ASCII/mermaid fallback) is planned for a future update. The text version above is complete and usable today.
+### Custom infographic (optional)
+
+If you want a printable poster or slide, use this image-generation prompt in any image tool:
+
+> Professional, calm decision flowchart titled **"When to Escalate: Personal Security Investigation"**. Clean modern design with blue and green security theme (not alarmist red). Rounded boxes connected by arrows. Decision diamonds for yes/no questions matching: data theft/financial loss, persistence+beaconing, personal targeting, multiple file+network red flags, still unsure. End states: "Escalate — prepare evidence package" and "Continue light monitoring". Footer text: "Document first. Not legal advice." High readability for beginners. No logos. Flat infographic style.
+
+Organize your files using the [Project Structure Recommendation](shared-templates/templates/project_structure_recommendation.md) before handing off evidence.
 
 ---
 
@@ -120,17 +158,16 @@ Having clean, well-organized documentation (thanks to the templates) makes their
 
 ---
 
-## Planned In-Depth Follow-Up Files
+## In-Depth Companion Guides
 
-This document is designed as a hub. Future files that can be linked from here include:
-
-- `How-to-Create-a-Forensic-Image.md` (safe ways to preserve a full copy of your drive)
-- `What-to-Expect-When-Working-with-Law-Enforcement.md`
-- `How-to-Prepare-a-Professional-Summary.md` (expanded template)
-- `Choosing-the-Right-Professional-Help.md` (incident response vs. law enforcement vs. private consultant)
-- `Protecting-Yourself-After-an-Incident.md` (longer-term security hardening)
-
-These can be added to the `Start-Guide/` folder as the project grows.
+| Guide | Status |
+|-------|--------|
+| [Choosing the Right Professional Help](Choosing-the-Right-Professional-Help.md) | Available |
+| [Project Structure Recommendation](shared-templates/templates/project_structure_recommendation.md) | Available |
+| `How-to-Create-a-Forensic-Image.md` | Planned |
+| `What-to-Expect-When-Working-with-Law-Enforcement.md` | Planned |
+| `How-to-Prepare-a-Professional-Summary.md` | Planned |
+| `Protecting-Yourself-After-an-Incident.md` | Planned |
 
 ---
 

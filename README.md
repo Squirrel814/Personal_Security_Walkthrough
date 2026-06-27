@@ -57,16 +57,19 @@ Both versions share the same core rules: **document before changing anything**, 
 
 ## How the pieces fit together
 
+See the full [Project Structure Recommendation](Start-Guide/shared-templates/templates/project_structure_recommendation.md) for screenshots, captures, and export subfolders.
+
 ```
-Your local investigation folder/
-├── investigation_log_YYYY-MM-DD.md      ← from template; running dated notes
+Investigation_YYYY-MM-DD/
+├── investigation_log_YYYY-MM-DD.md
 ├── suspicious_files_inventory_YYYY-MM-DD.md
-├── network_captures/                    ← optional .pcapng files
-└── screenshots/                         ← optional but recommended
+├── screenshots/
+├── network_captures/
+└── tool_exports/
 ```
 
 1. **Framework** (Minimal or Full Deep Dive) — paste into an LLM at the start of each session; it defines phases, comprehension gates, and safe commands.
-2. **Templates** — [`investigation_log_template.md`](Start-Guide/shared-templates/templates/investigation_log_template.md) and [`suspicious_files_inventory_template.md`](Start-Guide/shared-templates/templates/suspicious_files_inventory_template.md) become your evidence package.
+2. **Templates** — [`investigation_log_template.md`](Start-Guide/shared-templates/templates/investigation_log_template.md), [`suspicious_files_inventory_template.md`](Start-Guide/shared-templates/templates/suspicious_files_inventory_template.md), and [`project_structure_recommendation.md`](Start-Guide/shared-templates/templates/project_structure_recommendation.md).
 3. **Examples** — [`examples/`](Start-Guide/shared-templates/examples/) show realistic (redacted) entries.
 4. **Meta framework** — [`My_Security_Investigation_Framework_v1.0.md`](My_Security_Investigation_Framework_v1.0.md) is a cross-platform paste-in context doc if you want one file that works with any LLM regardless of OS variant.
 
@@ -74,7 +77,12 @@ Your local investigation folder/
 
 ## When to escalate
 
-If you see confirmed data theft, financial impact, sophisticated persistence, or feel personally targeted — **stop DIY work** and read **[When & How to Escalate](Start-Guide/When-and-How_to-Escalate.md)**. Your log, inventory, and captures are exactly what professionals need.
+If you see confirmed data theft, financial impact, sophisticated persistence, or feel personally targeted — **stop DIY work**.
+
+1. **[When & How to Escalate](Start-Guide/When-and-How_to-Escalate.md)** — includes a **Mermaid decision flowchart** and evidence-prep checklist
+2. **[Choosing the Right Professional Help](Start-Guide/Choosing-the-Right-Professional-Help.md)** — incident response vs. law enforcement vs. consultant vs. bank
+
+Your log, inventory, and captures are exactly what professionals need.
 
 ---
 
@@ -98,7 +106,8 @@ Personal_Security_Walkthrough/
 ├── full-deep-dive/{windows,macos,linux}/
 ├── Start-Guide/
 │   ├── Quick-Start-Guide.md
-│   ├── When-and-How_to-Escalate.md
+│   ├── When-and-How_to-Escalate.md      ← Mermaid escalate flowchart (v1.2)
+│   ├── Choosing-the-Right-Professional-Help.md
 │   └── shared-templates/{templates,examples}/
 └── Infograph_*.jpg
 ```

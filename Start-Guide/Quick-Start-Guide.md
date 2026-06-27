@@ -27,7 +27,7 @@ You can upgrade to the **Full Deep Dive** version of your platform later if you 
 ## Step-by-Step: Start Your First Investigation
 
 ### Step 1: Set Up Your Workspace (5 minutes)
-1. Create a new folder on your computer named something like `Investigation_2026-06-24`.
+1. Create a new folder on your computer named something like `Investigation_2026-06-24`. See the [Project Structure Recommendation](shared-templates/templates/project_structure_recommendation.md) for a full folder layout (screenshots, captures, exports).
 2. Copy the following files into it:
    - The framework file for your OS (Minimal Tools version recommended for first time)
    - `investigation_log_template.md`
@@ -80,7 +80,7 @@ This keeps everything organized and traceable.
 ## When to Go Deeper or Escalate
 
 - **Go Deeper:** If the light path shows clear anomalies or you want more visibility, switch to the Full Deep Dive version in `full-deep-dive/{windows,macos,linux}/`.
-- **Escalate:** If you find confirmed malicious behavior, persistence mechanisms, data theft, or feel personally targeted, read [When & How to Escalate](When-and-How_to-Escalate.md), prepare your evidence package (log + inventory + captures), and contact a professional or law enforcement.
+- **Escalate:** If you find confirmed malicious behavior, persistence mechanisms, data theft, or feel personally targeted, use the [decision flowchart](When-and-How_to-Escalate.md#decision-flowchart), read [Choosing the Right Professional Help](Choosing-the-Right-Professional-Help.md), prepare your evidence package (log + inventory + captures), and contact the appropriate professional or agency.
 
 ---
 

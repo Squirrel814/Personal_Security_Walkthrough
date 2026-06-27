@@ -30,13 +30,16 @@ Personal_Security_Walkthrough/
 				└── example_suspicious_files_inventory.md
 
 
-**Next Steps To-Do:**
-File Path Start-Guide/
-- Add “When & How to Escalate” - Build a simple visual version of the decision flowchart (image generation prompt + description).
-- Generate one of the planned in-depth files for the `When-and-How_to-Escalate.md` (e.g., How-to-Create-a-Forensic-Image.md or Choosing-the-Right-Professional-Help.md).
+**Phase 4 complete (2026-06-27):**
+- Escalate Mermaid flowchart + text + image prompt in `When-and-How_to-Escalate.md` (v1.2)
+- `Choosing-the-Right-Professional-Help.md`
+- `project_structure_recommendation.md` template
 
-File Path Start-Guide/shared-templates/templates
-- Create a short “Project Structure Recommendation” Template document explaining the recommended folder layout for end-user investigations.
+**Backlog:**
+- `How-to-Create-a-Forensic-Image.md`
+- `What-to-Expect-When-Working-with-Law-Enforcement.md`
+- `How-to-Prepare-a-Professional-Summary.md`
+- `Protecting-Yourself-After-an-Incident.md`
 
 **Back Burner for Full context/scope of project: **
 README.md for the repo:
