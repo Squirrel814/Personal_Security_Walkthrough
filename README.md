@@ -79,8 +79,9 @@ Investigation_YYYY-MM-DD/
 
 If you see confirmed data theft, financial impact, sophisticated persistence, or feel personally targeted — **stop DIY work**.
 
-1. **[When & How to Escalate](Start-Guide/When-and-How_to-Escalate.md)** — includes an **escalate infographic**, Mermaid flowchart, and evidence-prep checklist
-2. **[Choosing the Right Professional Help](Start-Guide/Choosing-the-Right-Professional-Help.md)** — incident response vs. law enforcement vs. consultant vs. bank
+1. **[When & How to Escalate](Start-Guide/When-and-How_to-Escalate.md)** — escalate infographic, Mermaid flowchart, evidence-prep checklist
+2. **[Choosing the Right Professional Help](Start-Guide/Choosing-the-Right-Professional-Help.md)** — IR vs. law enforcement vs. consultant vs. bank
+3. **Companion guides** — [forensic image](Start-Guide/How-to-Create-a-Forensic-Image.md) · [law enforcement](Start-Guide/What-to-Expect-When-Working-with-Law-Enforcement.md) · [professional summary](Start-Guide/How-to-Prepare-a-Professional-Summary.md) · [after-incident hardening](Start-Guide/Protecting-Yourself-After-an-Incident.md)
 
 Your log, inventory, and captures are exactly what professionals need.
 
@@ -108,8 +109,12 @@ Personal_Security_Walkthrough/
 ├── full-deep-dive/{windows,macos,linux}/
 ├── Start-Guide/
 │   ├── Quick-Start-Guide.md
-│   ├── When-and-How_to-Escalate.md      ← Mermaid escalate flowchart (v1.2)
+│   ├── When-and-How_to-Escalate.md
 │   ├── Choosing-the-Right-Professional-Help.md
+│   ├── How-to-Create-a-Forensic-Image.md
+│   ├── What-to-Expect-When-Working-with-Law-Enforcement.md
+│   ├── How-to-Prepare-a-Professional-Summary.md
+│   ├── Protecting-Yourself-After-an-Incident.md
 │   └── shared-templates/{templates,examples}/
 ├── Infograph_First-Steps*.jpg
 ├── Infograph_When-to-Escalate.jpg

@@ -103,6 +103,7 @@ Zip the entire `Investigation_YYYY-MM-DD/` folder or copy to external media if a
 - [Quick Start Guide](../../Quick-Start-Guide.md) — first session walkthrough
 - [When & How to Escalate](../../When-and-How_to-Escalate.md) — decision flowchart and handoff prep
 - [Choosing the Right Professional Help](../../Choosing-the-Right-Professional-Help.md) — who to contact
+- [How to Prepare a Professional Summary](../../How-to-Prepare-a-Professional-Summary.md) — escalation handoff doc
 
 ---
 

@@ -164,10 +164,10 @@ Having clean, well-organized documentation (thanks to the templates) makes their
 |-------|--------|
 | [Choosing the Right Professional Help](Choosing-the-Right-Professional-Help.md) | Available |
 | [Project Structure Recommendation](shared-templates/templates/project_structure_recommendation.md) | Available |
-| `How-to-Create-a-Forensic-Image.md` | Planned |
-| `What-to-Expect-When-Working-with-Law-Enforcement.md` | Planned |
-| `How-to-Prepare-a-Professional-Summary.md` | Planned |
-| `Protecting-Yourself-After-an-Incident.md` | Planned |
+| [How to Create a Forensic Image](How-to-Create-a-Forensic-Image.md) | Available |
+| [What to Expect When Working with Law Enforcement](What-to-Expect-When-Working-with-Law-Enforcement.md) | Available |
+| [How to Prepare a Professional Summary](How-to-Prepare-a-Professional-Summary.md) | Available |
+| [Protecting Yourself After an Incident](Protecting-Yourself-After-an-Incident.md) | Available |
 
 ---
 

@@ -103,7 +103,7 @@ This can run **in parallel** with IR or law enforcement — it is not either/or 
 
 ## What this guide does not cover
 
-- **DIY forensic imaging** — see planned companion `How-to-Create-a-Forensic-Image.md` (future); default is **hand off to professionals** for full disk images when stakes are high
+- **DIY forensic imaging** — see [How to Create a Forensic Image](How-to-Create-a-Forensic-Image.md); default is **hand off to professionals** for full disk images when stakes are high
 - **Legal strategy** — consult a lawyer for custody, liability, or court proceedings
 - **Insurance claims** — your policy may require specific IR vendors or timelines
 

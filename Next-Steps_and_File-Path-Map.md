@@ -35,11 +35,13 @@ Personal_Security_Walkthrough/
 - `Choosing-the-Right-Professional-Help.md`
 - `project_structure_recommendation.md` template
 
-**Backlog:**
+**Phase 4 companions (DONE 2026-06-27):**
 - `How-to-Create-a-Forensic-Image.md`
 - `What-to-Expect-When-Working-with-Law-Enforcement.md`
 - `How-to-Prepare-a-Professional-Summary.md`
 - `Protecting-Yourself-After-an-Incident.md`
+
+**Next backlog:** Phase 5 defense layer (`defense/`) — see `GeminiResearch_Personal-Security-Defense/REPO_EXPANSION_VISION.md`
 
 **Back Burner for Full context/scope of project: **
 README.md for the repo:
