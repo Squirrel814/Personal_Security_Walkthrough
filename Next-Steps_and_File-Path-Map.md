@@ -1,9 +1,11 @@
 ## File Structure Map
 
 Personal_Security_Walkthrough/
-├── README.md                    ← DONE (Phase 3)
+├── README.md                    ← DONE (Phase 3) — v2 Visual table 2026-06-27
 ├── LICENSE                      ← DONE (dual CC-BY-SA + MIT)
 ├── CONTRIBUTING.md              ← DONE (Phase 3)
+├── Infographs/                  ← v2 art + VISUAL-PROMPTS_v2.md + README.md
+│   └── Archived/                ← not style authority
 ├── minimal-tools/
 │   ├── windows/
 │   │   └── My_Security_Framework_Windows-OS_v1.1_Minimal_Tools.md
@@ -18,13 +20,18 @@ Personal_Security_Walkthrough/
 │       └── My_Security_Framework_macOS_v1.1_Full_Deep_Dive.md
 │   └── linux/ 
 │       └── My_Security_Framework_Linux_v1.1_Full_Deep_Dive.md
+├── defense/                     ← Phase 5 DONE
+├── web/
+│   ├── index.html               ← Phase 6b DONE 2026-06-27 (v2 hub)
+│   ├── design-tokens.css
+│   └── hub.css
 ├── Start-Guide/
 		├── When-and-How_to-Escalate.md
 		├── Quick-Start-Guide.md
 		└── shared-templates/
 			├── templates/
 			│   ├── investigation_log_template.md
-			│   └── suspicious_files_inventory_template.md
+			│   └── suspicious_files_inventory.md
 			└── examples/
 				├── example_investigation_log.md
 				└── example_suspicious_files_inventory.md
@@ -47,8 +54,27 @@ Personal_Security_Walkthrough/
 - `defense/Platform-Safety-X-and-Social.md`
 - Source: `Personal-Security-Defense_CANONICAL.md` (Gemini) — Options A + C
 
-**Phase 6 web hub (DONE 2026-06-27):**
-- `web/index.html` — Option B from CANONICAL §7
+**Phase 6a web hub (DONE 2026-06-27):**
+- `web/index.html` — Option B from CANONICAL §7 (flat pastel v1)
+
+**Phase 6b visual + web alignment (IN PROGRESS 2026-06-27):**
+
+| Task | Status | Owner |
+|------|--------|-------|
+| `Infographs/VISUAL-PROMPTS_v2.md` | ✅ DONE | Agent |
+| `Infographs/README.md` inventory | ✅ DONE | Agent |
+| `web/design-tokens.css` + `hub.css` | ✅ DONE | Agent |
+| `web/index.html` v2 — gallery, escalate criteria, platform table, HIBP prose | ✅ DONE | Agent |
+| `README.md` Visual section v2 | ✅ DONE | Agent |
+| Mascot assignment plan v1.2 | ✅ DONE (Agents-Designs-Ideas) | Agent |
+| Reprompt infographs (LLM Squirrel, Escalate, Evidence, Platform, Grid…) | 🎨 **User** | User |
+| Rename `0846e0d2-...jpg` → `Week-1-Stabilize.jpg` | ⏳ After User confirms | Either |
+| Legacy root `Infograph_*` → `Archived/` | ⏳ After v2 escalate JPG ships | Agent |
+| Git push | ⏳ When batch ready | Agent |
+
+**Phase 6c — blocked on User art:**
+- Swap gallery images when reprompts land
+- Update hub + README links if filenames change
 
 **Next backlog:** Phase 6 curriculum (`curriculum/quiz`, flashcards) or Phase 7 `tools/` — see `GeminiResearch_Personal-Security-Defense/REPO_EXPANSION_VISION.md`
 
@@ -61,4 +87,4 @@ README.md for the repo:
 
 **LICENSE file:** (current recommendation: MIT or CC-BY-SA) 
 
-**CONTRIBUTING.md:** for the open-source repo. located on Interwoven-Projects with the specific guidelines for the community policy. 
+**CONTRIBUTING.md:** for the open-source repo. located on Interwoven-Projects with the specific guidelines for the community policy.

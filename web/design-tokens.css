@@ -1,0 +1,62 @@
+/**
+ * Personal Security Walkthrough — design tokens v2
+ * Extracted from Infographs/Investigation-Flow.jpg + Personal-Security-Walkthrough.jpg
+ * Parchment field-manual + dark panels + neon cyan accents
+ */
+:root {
+  /* Parchment / field manual */
+  --bg: #ebe0cc;
+  --bg-texture: #e8d9c2;
+  --parchment-deep: #d4c4a8;
+  --surface: #faf6ee;
+  --surface-panel: #1a2820;
+  --surface-panel-alt: #243530;
+
+  /* Typography */
+  --text: #1a2e35;
+  --text-muted: #4a5f66;
+  --text-on-dark: #eef2f0;
+  --text-heading: #0f1f18;
+
+  /* Accents — cyan glow family */
+  --cyan: #00e5ff;
+  --cyan-dim: #00ced1;
+  --cyan-glow: rgba(0, 229, 255, 0.35);
+  --teal-header: #2a6b5e;
+
+  /* Semantic */
+  --primary: #2a6b5e;
+  --primary-dark: #0f1f18;
+  --accent: #3d8a7a;
+  --accent-soft: rgba(42, 107, 94, 0.12);
+  --warn: #c4a35a;
+  --warn-bg: rgba(196, 163, 90, 0.15);
+  --yes: #2a6b5e;
+  --no: #4a5f66;
+
+  /* UI */
+  --border: #b8a88a;
+  --border-cyan: rgba(0, 229, 255, 0.45);
+  --focus: #0066cc;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 2px 14px rgba(26, 40, 32, 0.1);
+  --shadow-panel: 0 4px 20px rgba(0, 229, 255, 0.08);
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: Georgia, "Times New Roman", serif;
+}
+
+.high-contrast {
+  --bg: #000000;
+  --bg-texture: #111111;
+  --surface: #1a1a1a;
+  --surface-panel: #0a0a0a;
+  --text: #ffffff;
+  --text-muted: #e0e0e0;
+  --text-on-dark: #ffffff;
+  --cyan: #7ec8e3;
+  --border: #666666;
+  --border-cyan: #7ec8e3;
+  --shadow: none;
+  --shadow-panel: none;
+}

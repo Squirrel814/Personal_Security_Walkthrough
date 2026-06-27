@@ -105,11 +105,20 @@ Your log, inventory, and captures are exactly what professionals need.
 
 ## Visual overview
 
-![Beginner Security Investigation — First Steps](Infograph_First-Steps.jpg)
+v2 infographs live in [`Infographs/`](Infographs/) (parchment + cyan glow style). Prompts: [`Infographs/VISUAL-PROMPTS_v2.md`](Infographs/VISUAL-PROMPTS_v2.md). Gallery: [`web/index.html`](web/index.html).
 
-![Investigation workflow — continued steps](Infograph_First-Steps_2.jpg)
+| Infograph | Guide |
+|-----------|-------|
+| [Overview — three paths](Infographs/Personal-Security-Walkthrough.jpg) | [Quick Start](Start-Guide/Quick-Start-Guide.md) |
+| [Investigation flow — six phases](Infographs/Investigation-Flow.jpg) | [Minimal Tools](minimal-tools/windows/My_Security_Framework_Windows-OS_v1.1_Minimal_Tools.md) |
+| [Document first](Infographs/Document-First.jpg) | [Quick Start](Start-Guide/Quick-Start-Guide.md) |
+| [LLM co-pilot flow](Infographs/LLM-Co-Pilot-Flow.jpg) | [Framework paste-in](My_Security_Investigation_Framework_v1.0.md) |
+| [Summary for professionals](Infographs/Summary-for-Professionals.jpg) | [Professional summary](Start-Guide/How-to-Prepare-a-Professional-Summary.md) |
+| [Week 1 — stabilize](Infographs/0846e0d2-1497-4252-bcb6-88e06da4e863.jpg) | [Block and Harden](defense/Block-and-Harden.md) |
 
-![When to Escalate — decision flowchart](Infograph_When-to-Escalate.jpg)
+**Escalate flowchart (exact text):** [Infograph_When-to-Escalate.svg](Infograph_When-to-Escalate.svg) · [When & How to Escalate](Start-Guide/When-and-How_to-Escalate.md)
+
+Legacy flat v1 JPGs at repo root remain until v2 `When-to-Escalate.jpg` ships — see [Infographs/README.md](Infographs/README.md).
 
 ---
 
@@ -127,8 +136,13 @@ Personal_Security_Walkthrough/
 │   ├── Block-and-Harden.md
 │   ├── Safe-Removal-After-Documentation.md
 │   └── Platform-Safety-X-and-Social.md
+├── Infographs/                  ← v2 parchment infographs + VISUAL-PROMPTS_v2.md
+│   ├── README.md
+│   └── Archived/                ← old drafts — not style authority
 ├── web/
-│   └── index.html               ← calm hub (Investigate | Block | Escalate)
+│   ├── index.html               ← calm hub (v2 tokens, gallery, no CDN)
+│   ├── design-tokens.css
+│   └── hub.css
 ├── Start-Guide/
 │   ├── Quick-Start-Guide.md
 │   ├── When-and-How_to-Escalate.md
