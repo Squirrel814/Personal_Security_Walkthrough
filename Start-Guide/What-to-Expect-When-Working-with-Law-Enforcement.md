@@ -7,6 +7,12 @@ This companion to [When & How to Escalate](When-and-How_to-Escalate.md) describe
 
 **Emergency:** If you are in immediate physical danger, call your local emergency number first.
 
+<p align="center">
+  <img src="../Infographs/Law-Enforcement-Expectations.jpg" width="520" alt="Reporting cyber harassment: non-emergency line or IC3, organized evidence package, investigations take time, preserve devices do not wipe. Not legal advice.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md)*
+
 ---
 
 ## When law enforcement is a good fit

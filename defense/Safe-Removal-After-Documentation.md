@@ -22,6 +22,12 @@ You may proceed with **DIY quarantine** only if **all** are true:
 
 If any **escalation red flag** applies → stop. See [When & How to Escalate](../Start-Guide/When-and-How_to-Escalate.md).
 
+<p align="center">
+  <img src="../Infographs/Safe-Removal.jpg" width="360" alt="Safe removal after documentation: document complete, quarantine to isolated folder, verify with rescan. Never wipe before professionals advise if escalation criteria met.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md)*
+
 ---
 
 ## Decision tree

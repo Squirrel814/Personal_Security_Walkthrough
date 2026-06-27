@@ -16,6 +16,12 @@ A consistent folder layout helps you:
 - Resume an LLM session without losing context
 - Avoid accidentally mixing old and new incidents
 
+<p align="center">
+  <img src="../../../Infographs/Your-Evidence-Package.jpg" width="520" alt="Evidence package folder with investigation log, suspicious files inventory, screenshots, network captures, and summary for professionals.">
+</p>
+
+*Infograph — [full gallery](../../../Infographs/README.md)*
+
 ---
 
 ## Recommended folder tree

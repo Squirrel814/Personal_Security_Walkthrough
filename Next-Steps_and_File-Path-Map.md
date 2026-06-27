@@ -106,7 +106,10 @@ Personal_Security_Walkthrough/
 - Phase 6 curriculum — quiz + flashcards (`curriculum/`) — optional v2 community layer
 - Personal Security Command Center app — future (gem Section 10)
 
-**Next backlog:** Optional `export_blocklist.py`; link infographs from individual markdown guides as needed
+**Next backlog:** Optional `export_blocklist.py`
+
+**Phase 6d — inline infograph thumbnails (DONE 2026-06-27):**
+- Start-Guide, defense, minimal-tools frameworks, project structure, and LLM paste-in framework
 
 **Back Burner for Full context/scope of project: **
 README.md for the repo:

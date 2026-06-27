@@ -13,6 +13,12 @@ Harassment and scare tactics often span **devices and social platforms**. This g
 
 **Not legal advice.** For criminal harassment or credible threats, see [When & How to Escalate](../Start-Guide/When-and-How_to-Escalate.md) and [Working with Law Enforcement](../Start-Guide/What-to-Expect-When-Working-with-Law-Enforcement.md).
 
+<p align="center">
+  <img src="../Infographs/Platform-Safety.jpg" width="400" alt="Social media platform safety defensive only: block, mute, report, screenshot and timestamp. Do not engage, dox, or hack back.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md)*
+
 ---
 
 ## Document before platform changes

@@ -44,6 +44,12 @@ Make sure you have:
 - Network capture files (`.pcapng` or `.pcap`) from Wireshark/tcpdump
 - Any exported reports from Autoruns, KnockKnock, Process Explorer, etc.
 
+<p align="center">
+  <img src="../Infographs/Your-Evidence-Package.jpg" width="520" alt="Evidence package folder with investigation log, suspicious files inventory, screenshots, network captures, and summary for professionals.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md)*
+
 ### 2. Create a Clean Summary Document (Recommended)
 Create a short 1–2 page summary with these sections:
 
@@ -58,6 +64,12 @@ Create a short 1–2 page summary with these sections:
 - **Questions you have for professionals:** [Optional]
 
 This summary helps busy professionals quickly understand the situation.
+
+<p align="center">
+  <img src="../Infographs/Summary-for-Professionals.jpg" width="360" alt="One-page professional summary template: Situation, Key Findings, Timeline, Evidence List, Questions for You. Facts only, label uncertainty.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md) · [How to prepare a summary](How-to-Prepare-a-Professional-Summary.md)*
 
 ### 3. Decide Who to Contact
 
@@ -79,9 +91,11 @@ Use this section when you have finished your initial documentation and want a cl
 
 ### Infographic (image)
 
-![When to Escalate — decision flowchart](../Infographs/When-to-Escalate.jpg)
+<p align="center">
+  <img src="../Infographs/When-to-Escalate.jpg" width="360" alt="When to Escalate decision ladder: review findings, then Q1 through Q5 on data theft, persistence, personal targeting, multiple indicators, and uncertainty.">
+</p>
 
-*Text-accurate version also available as [Infograph_When-to-Escalate.svg](../Infograph_When-to-Escalate.svg) (screen readers and printing). Legacy flat JPG: [Archived copy](../Infographs/Archived/Infograph_When-to-Escalate.jpg).*
+*Text-accurate version: [Infograph_When-to-Escalate.svg](../Infograph_When-to-Escalate.svg) (screen readers and printing). [Full gallery](../Infographs/README.md).*
 
 ### Visual flowchart (Mermaid)
 

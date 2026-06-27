@@ -13,6 +13,12 @@ You have already done the hard part: **documenting calmly**. Use your investigat
 
 If you have not prepared your evidence package yet, complete [How to Prepare Before Escalating](When-and-How_to-Escalate.md#how-to-prepare-before-escalating) first.
 
+<p align="center">
+  <img src="../Infographs/Choosing-Professional-Help.jpg" width="520" alt="Four paths for professional help: bank or financial institutions, incident response, law enforcement or IC3, trusted IT consultant. Bring evidence package and professional summary.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md)*
+
 ---
 
 ## Quick decision guide

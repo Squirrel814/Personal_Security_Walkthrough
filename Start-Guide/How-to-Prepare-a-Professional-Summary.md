@@ -5,6 +5,12 @@ Version 1.0 | Cross-Platform
 
 This companion expands the short summary template in [When & How to Escalate](When-and-How_to-Escalate.md) into a **complete, reusable document** for incident response firms, IT consultants, law enforcement, or legal counsel. It is not legal advice.
 
+<p align="center">
+  <img src="../Infographs/Summary-for-Professionals.jpg" width="360" alt="One-page professional summary template: Situation, Key Findings, Timeline table, Evidence List checkboxes, Questions for You. Facts only, label uncertainty.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md)*
+
 ---
 
 ## Purpose

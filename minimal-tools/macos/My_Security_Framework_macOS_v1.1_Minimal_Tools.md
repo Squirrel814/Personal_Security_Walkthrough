@@ -2,6 +2,12 @@
 **Version:** 1.1 - Minimal Tools & Low-Token Optimized (2026-06-24)  
 **Purpose:** Paste this entire file at the start of any LLM conversation (including free-tier or local models). Then describe your current situation. Designed for macOS users wanting maximum accessibility with minimal tools and low token usage.
 
+<p align="center">
+  <img src="../../Infographs/Investigation-Flow.jpg" width="520" alt="Six investigation phases: Document, Verify Time, Scan, Inspect Files, Network Check, Decide clean monitor or escalate.">
+</p>
+
+*Infograph — [full gallery](../../Infographs/README.md) · [Quick Start](../../Start-Guide/Quick-Start-Guide.md)*
+
 ---
 
 ## Optimized for Low-Token & Minimal Tools Use

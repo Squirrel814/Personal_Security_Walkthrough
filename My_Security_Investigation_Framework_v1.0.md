@@ -3,6 +3,12 @@
 **Author:** Structured via GROK-BUILD Meta-Framework v3.1 (Acorn Edition)  
 **Purpose:** Reusable, self-contained context document. Paste the entire contents of this file at the **start** of any new conversation with an LLM (Grok, Claude, GPT, local model, etc.). Then add your current specific situation or question. This gives the AI instant, unambiguous understanding of your goals, constraints, style preferences, and exact process so every session stays consistent, calm, evidence-focused, and beginner-friendly.
 
+<p align="center">
+  <img src="Infographs/LLM-Co-Pilot-Flow.jpg" width="520" alt="LLM co-pilot flow: copy framework file, paste into chat with Start Phase 0, end session with append session summary to log. LLM explains, you document, tools verify.">
+</p>
+
+*Infograph — [full gallery](Infographs/README.md) · [Quick Start](Start-Guide/Quick-Start-Guide.md)*
+
 ---
 
 ## Crisp Goal Statement

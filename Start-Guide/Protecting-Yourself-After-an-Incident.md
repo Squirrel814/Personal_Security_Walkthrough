@@ -7,6 +7,12 @@ This guide covers **longer-term defensive steps** after scare-tactic files, susp
 
 **Scope:** Defensive actions on **your** accounts, devices, and network. Not retaliation or offensive action.
 
+<p align="center">
+  <img src="../Infographs/After-Incident-Recovery.jpg" width="360" alt="After-incident checklist: keep logging, do not delete unless professionals instruct, passwords and 2FA on clean device, emotional check-in, review Week 1 stabilize.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md)*
+
 ---
 
 ## Mindset first
@@ -59,6 +65,12 @@ See **[Platform Safety (X & Social)](../defense/Platform-Safety-X-and-Social.md)
 ## Week 2–4 — Harden
 
 ### Identity & credentials
+
+<p align="center">
+  <img src="../Infographs/Breach-Check-Inventory.jpg" width="360" alt="Breach check what to log: email or account checked, date checked, exposure type, action taken. k-anonymity prefix search, do not paste live passwords.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md) · [Web hub breach check](../web/index.html#breach-check)*
 
 | Action | Notes |
 |--------|-------|

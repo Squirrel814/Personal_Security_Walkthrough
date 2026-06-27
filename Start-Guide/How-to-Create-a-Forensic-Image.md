@@ -13,6 +13,12 @@ A **forensic image** is a bit-for-bit copy of a storage device (hard drive, SSD,
 
 **Why it matters:** Scare-tactic campaigns often push victims to wipe or reinstall immediately — that destroys evidence. An image (or professional imaging) preserves what was on the disk **before** changes.
 
+<p align="center">
+  <img src="../Infographs/Forensic-Image.jpg" width="400" alt="Forensic image decision: contact professionals first for high-stakes cases; limited DIY only if low stakes with hash logged. Never wipe before documentation.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md)*
+
 ---
 
 ## When you should **not** DIY

@@ -25,6 +25,12 @@ Blocking changes system state. Do not skip ahead.
 
 **Credential rotation:** Change passwords and enable 2FA on a **clean device** (phone on cellular, or a machine you trust), not on a host you suspect is compromised (~85% — keylogger risk if rotated on infected PC).
 
+<p align="center">
+  <img src="../Infographs/Block-and-Harden-Grid.jpg" width="520" alt="Block and harden grid: network edge, accounts credentials, platform block mute report, device OS and browser updates. Document, comprehension gate, escalate check, then harden.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md)*
+
 ---
 
 ## Network edge
@@ -69,6 +75,12 @@ malware-example.bad
 
 ## Accounts and credentials
 
+<p align="center">
+  <img src="../Infographs/Week-1-Stabilize.jpg" width="360" alt="Week 1 stabilize checklist: email and banking 2FA, update OS and browser, router device list, block mute document on social, weekly light check.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md)*
+
 ### Week 1 — stabilize (~90% industry alignment)
 
 | Priority | Action |
@@ -89,6 +101,12 @@ malware-example.bad
 | Alias emails | SimpleLogin, Firefox Relay, or provider aliases for new signups (~80%) |
 
 **HIBP k-anonymity (~95%, sourced):** Password check sends only the first 5 characters of the SHA-1 hash prefix; full hash stays local. Still use only on a device you trust.
+
+<p align="center">
+  <img src="../Infographs/Breach-Check-Inventory.jpg" width="360" alt="Breach check what to log: email or account checked, date checked, exposure type, action taken. k-anonymity prefix search, do not paste live passwords.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md) · [Web hub breach check](../web/index.html#breach-check)*
 
 ### Ongoing
 

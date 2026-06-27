@@ -5,6 +5,12 @@ Version 1.1 | Cross-Platform (Windows • macOS • Linux)
 
 Welcome. This short guide will help you start your first investigation safely and calmly, even if you have no security background.
 
+<p align="center">
+  <img src="../Infographs/Personal-Security-Walkthrough.jpg" width="520" alt="Three paths: Investigate, Block and Harden, Escalate. Composed and strategic, evidence first, open source.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md)*
+
 ---
 
 ## What You Need (Minimum)
@@ -37,6 +43,13 @@ You can upgrade to the **Full Deep Dive** version of your platform later if you 
    - `suspicious_files_inventory_2026-06-24.md`
 
 ### Step 2: Paste the Framework into an LLM (Any AI)
+
+<p align="center">
+  <img src="../Infographs/LLM-Co-Pilot-Flow.jpg" width="520" alt="LLM co-pilot flow: copy framework file, paste into chat with Start Phase 0, end session with append session summary to log.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md)*
+
 1. Open any LLM chat (Grok, Claude, GPT, local Ollama model, etc.).
 2. Paste the **entire contents** of your chosen framework file.
 3. Then type something like:
@@ -46,6 +59,13 @@ You can upgrade to the **Full Deep Dive** version of your platform later if you 
 The LLM now understands exactly how to help you.
 
 ### Step 3: Begin with Phase 0 (Documentation First)
+
+<p align="center">
+  <img src="../Infographs/Document-First.jpg" width="360" alt="Document first: screenshot file properties, write path and timestamps in inventory, do not open or delete yet.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md)*
+
 Follow the framework’s Phase 0 instructions:
 - Take screenshots of suspicious file Properties / Get Info.
 - Check and correct your system date/time if it’s wrong.
@@ -54,6 +74,13 @@ Follow the framework’s Phase 0 instructions:
 **Important rule:** Do **not** delete or open the suspicious files yet.
 
 ### Step 4: Continue Through the Phases
+
+<p align="center">
+  <img src="../Infographs/Investigation-Flow.jpg" width="520" alt="Six investigation phases: Document, Verify Time, Scan, Inspect Files, Network Check, Decide clean monitor or escalate.">
+</p>
+
+*Infograph — [full gallery](../Infographs/README.md)*
+
 Work through the phases one at a time. After each major step, ask the LLM for a **Session Summary** and append it to your log (the template has a ready section for this).
 
 You can move at your own pace — there is no rush.
