@@ -41,7 +41,13 @@ Personal_Security_Walkthrough/
 - `How-to-Prepare-a-Professional-Summary.md`
 - `Protecting-Yourself-After-an-Incident.md`
 
-**Next backlog:** Phase 5 defense layer (`defense/`) — see `GeminiResearch_Personal-Security-Defense/REPO_EXPANSION_VISION.md`
+**Phase 5 defense layer (DONE 2026-06-27):**
+- `defense/Block-and-Harden.md`
+- `defense/Safe-Removal-After-Documentation.md`
+- `defense/Platform-Safety-X-and-Social.md`
+- Source: `Personal-Security-Defense_CANONICAL.md` (Gemini) — Options A + C
+
+**Next backlog:** Phase 6 curriculum (`curriculum/`, `web/`) or Phase 7 `tools/` — see `GeminiResearch_Personal-Security-Defense/REPO_EXPANSION_VISION.md`
 
 **Back Burner for Full context/scope of project: **
 README.md for the repo:

@@ -55,6 +55,20 @@ Both versions share the same core rules: **document before changing anything**, 
 
 ---
 
+## Defense layer (v1.1)
+
+After you document and check [escalation criteria](Start-Guide/When-and-How_to-Escalate.md), these guides cover **ethical blocking and hardening** on your own systems and accounts:
+
+| Guide | Purpose |
+|-------|---------|
+| [Block and Harden](defense/Block-and-Harden.md) | Router/DNS, accounts, 2FA, network edge |
+| [Safe Removal After Documentation](defense/Safe-Removal-After-Documentation.md) | Quarantine files after evidence is saved |
+| [Platform Safety (X & Social)](defense/Platform-Safety-X-and-Social.md) | Block, mute, report, preserve posts |
+
+Investigate first → then defend. No hacking back.
+
+---
+
 ## How the pieces fit together
 
 See the full [Project Structure Recommendation](Start-Guide/shared-templates/templates/project_structure_recommendation.md) for screenshots, captures, and export subfolders.
@@ -107,6 +121,10 @@ Personal_Security_Walkthrough/
 ├── My_Security_Investigation_Framework_v1.0.md
 ├── minimal-tools/{windows,macos,linux}/
 ├── full-deep-dive/{windows,macos,linux}/
+├── defense/                     ← v1.1 block, quarantine, platform safety
+│   ├── Block-and-Harden.md
+│   ├── Safe-Removal-After-Documentation.md
+│   └── Platform-Safety-X-and-Social.md
 ├── Start-Guide/
 │   ├── Quick-Start-Guide.md
 │   ├── When-and-How_to-Escalate.md

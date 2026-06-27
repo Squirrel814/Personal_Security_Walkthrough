@@ -46,6 +46,8 @@ Harassment and scare tactics often aim to keep you **reacting**. A steady rhythm
 
 ### 4. Platform safety (social / X)
 
+See **[Platform Safety (X & Social)](../defense/Platform-Safety-X-and-Social.md)** for the full evidence-first workflow. Quick list:
+
 - [ ] **Block** and **mute** harassing accounts — do not engage in public fights
 - [ ] Restrict **who can message or mention** you (platform settings)
 - [ ] **Document** threatening posts (screenshots with timestamps, URLs)
