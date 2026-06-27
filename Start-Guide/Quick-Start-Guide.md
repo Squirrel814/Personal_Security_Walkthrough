@@ -33,7 +33,7 @@ You can upgrade to the **Full Deep Dive** version of your platform later if you 
 ## Step-by-Step: Start Your First Investigation
 
 ### Step 1: Set Up Your Workspace (5 minutes)
-1. Create a dated folder on your computer — fastest: `python tools/scaffold_investigation_folder.py --output-dir <your Documents path>` from the cloned repo (creates `Investigation_YYYY-MM-DD/` with templates and subfolders). Or create manually; see [Project Structure Recommendation](shared-templates/templates/project_structure_recommendation.md).
+1. Create a dated folder on your computer — fastest: `python tools/scaffold_investigation_folder.py --output-dir <your Documents path> --os windows` from the cloned repo (creates `Investigation_YYYY-MM-DD/` with templates, subfolders, and optional `evidence_YYYY-MM-DD.json`). Or create manually; see [Project Structure Recommendation](shared-templates/templates/project_structure_recommendation.md). Optional automation: [tools/README.md](../tools/README.md) (`collect_file_metadata.py`, `generate_llm_prompt.py`).
 2. Copy the following files into it:
    - The framework file for your OS (Minimal Tools version recommended for first time)
    - `investigation_log_template.md`

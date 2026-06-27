@@ -15,10 +15,16 @@ Exit code: 0 on success; 1 on error or if target exists without --force.
 from __future__ import annotations
 
 import argparse
+import json
 import shutil
 import sys
 from datetime import date
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from evidence_lib import new_evidence_document
+from psw_calm_ui import banner, info, ok
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 TEMPLATES = REPO_ROOT / "Start-Guide" / "shared-templates" / "templates"
@@ -43,6 +49,16 @@ START_HERE = """# Investigation folder — start here
 2. Add suspicious files to `suspicious_files_inventory_{date_stamp}.md`.
 3. Paste your OS framework into an LLM — see `framework_session/README.md`.
 4. Save screenshots under `screenshots/` (never delete originals on disk until pros advise).
+5. Optional: use `evidence_{date_stamp}.json` + tools in Personal_Security_Walkthrough/tools/
+
+## Evidence JSON (optional automation)
+
+- `evidence_{date_stamp}.json` — structured metadata (validates against evidence_schema.json)
+- `python .../tools/collect_file_metadata.py --evidence evidence_{date_stamp}.json --path <file>`
+- `python .../tools/generate_llm_prompt.py --evidence evidence_{date_stamp}.json`
+- `python .../tools/generate_pro_summary.py --evidence evidence_{date_stamp}.json`
+
+Markdown logs remain your primary human-readable record.
 
 ## Guides (Personal Security Walkthrough)
 
@@ -91,6 +107,12 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Allow creating into an existing empty or non-empty folder name collision",
     )
+    parser.add_argument(
+        "--os",
+        choices=("windows", "macos", "linux", "unknown"),
+        default="unknown",
+        help="OS family for evidence JSON (default: unknown)",
+    )
     return parser.parse_args()
 
 
@@ -107,7 +129,9 @@ def is_inside_repo(target: Path) -> bool:
         return False
 
 
-def scaffold(output_dir: Path, date_stamp: str, dry_run: bool, force: bool) -> Path:
+def scaffold(
+    output_dir: Path, date_stamp: str, dry_run: bool, force: bool, os_family: str
+) -> Path:
     root_name = f"Investigation_{date_stamp}"
     inv_root = (output_dir / root_name).resolve()
 
@@ -169,6 +193,10 @@ def scaffold(output_dir: Path, date_stamp: str, dry_run: bool, force: bool) -> P
     write_text(inv_root / "START_HERE.md", START_HERE.format(date_stamp=date_stamp))
     write_text(inv_root / "framework_session" / "README.md", FRAMEWORK_README)
 
+    evidence_doc = new_evidence_document(date_stamp, os_family=os_family)
+    evidence_json = json.dumps(evidence_doc, indent=2, ensure_ascii=False) + "\n"
+    write_text(inv_root / f"evidence_{date_stamp}.json", evidence_json)
+
     gitkeep = "# Keep this folder in your backup scope.\n"
     for sub in ("screenshots/file_properties", "network_captures", "tool_exports", "scripts_reviewed"):
         write_text(inv_root / sub / ".gitkeep", gitkeep)
@@ -192,7 +220,12 @@ def main() -> int:
         print(f"ERROR: output directory does not exist: {output_dir}", file=sys.stderr)
         return 1
 
-    scaffold(output_dir, args.date, args.dry_run, args.force)
+    if not args.dry_run:
+        banner("Scaffold investigation folder", f"Investigation_{args.date}")
+    scaffold(output_dir, args.date, args.dry_run, args.force, args.os)
+    if not args.dry_run:
+        ok(f"Investigation_{args.date} ready")
+        info("Markdown logs + evidence JSON created. Document first.")
     return 0
 
 

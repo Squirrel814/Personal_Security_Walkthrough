@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Squirrel814/Personal_Security_Walkthrough/tools/evidence_schema.json",
+  "title": "Personal Security Walkthrough Evidence Package",
+  "description": "Structured evidence metadata alongside Markdown logs. Human-readable logs remain authoritative; JSON enables validation, LLM ingest, and automation.",
+  "type": "object",
+  "required": ["schema_version", "investigation", "files", "artifacts"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "investigation": {
+      "type": "object",
+      "required": ["id", "started_at", "os", "phase", "phase_name"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^Investigation_[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "started_at": { "type": "string", "format": "date" },
+        "investigator": { "type": "string" },
+        "os": {
+          "type": "object",
+          "required": ["family"],
+          "additionalProperties": false,
+          "properties": {
+            "family": { "type": "string", "enum": ["windows", "macos", "linux", "unknown"] },
+            "version": { "type": "string" },
+            "framework": { "type": "string" }
+          }
+        },
+        "phase": { "type": "integer", "minimum": 0, "maximum": 6 },
+        "phase_name": {
+          "type": "string",
+          "enum": [
+            "documentation",
+            "scanning",
+            "inspection",
+            "network_check",
+            "decision",
+            "handoff",
+            "closed"
+          ]
+        },
+        "situation_summary": { "type": "string" }
+      }
+    },
+    "system": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "system_time_verified": { "type": ["string", "null"], "format": "date-time" },
+        "system_time_was_correct": { "type": ["boolean", "null"] },
+        "system_time_corrected": { "type": "boolean" }
+      }
+    },
+    "files": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/file_entry" }
+    },
+    "sessions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/session_entry" }
+    },
+    "escalation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "recommended": { "type": "boolean" },
+        "criteria_met": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "breach_checks": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/breach_check" }
+    },
+    "artifacts": {
+      "type": "object",
+      "required": ["screenshots", "network_captures", "tool_exports"],
+      "additionalProperties": false,
+      "properties": {
+        "screenshots": { "type": "array", "items": { "type": "string" } },
+        "network_captures": { "type": "array", "items": { "type": "string" } },
+        "tool_exports": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  },
+  "$defs": {
+    "file_entry": {
+      "type": "object",
+      "required": ["path", "status"],
+      "additionalProperties": false,
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "created": { "type": ["string", "null"], "format": "date-time" },
+        "modified": { "type": ["string", "null"], "format": "date-time" },
+        "accessed": { "type": ["string", "null"], "format": "date-time" },
+        "size_bytes": { "type": ["integer", "null"], "minimum": 0 },
+        "sha256": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" },
+        "why_suspicious": { "type": "string" },
+        "status": {
+          "type": "string",
+          "enum": ["documented", "quarantined", "cleared", "escalated", "monitoring"]
+        },
+        "notes": { "type": "string" },
+        "screenshot": { "type": ["string", "null"] }
+      }
+    },
+    "session_entry": {
+      "type": "object",
+      "required": ["at", "phase", "summary"],
+      "additionalProperties": false,
+      "properties": {
+        "at": { "type": "string", "format": "date-time" },
+        "phase": { "type": "integer", "minimum": 0, "maximum": 6 },
+        "llm": { "type": "string" },
+        "summary": { "type": "string" },
+        "next_action": { "type": "string" }
+      }
+    },
+    "breach_check": {
+      "type": "object",
+      "required": ["checked_at", "account"],
+      "additionalProperties": false,
+      "properties": {
+        "checked_at": { "type": "string", "format": "date" },
+        "account": { "type": "string" },
+        "exposure_types": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["email", "password", "phone", "other"] }
+        },
+        "action_taken": { "type": "string" },
+        "uncertainty": { "type": "string" }
+      }
+    }
+  }
+}

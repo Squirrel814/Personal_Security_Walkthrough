@@ -69,7 +69,7 @@ Investigate first → then defend. No hacking back.
 
 **Web hub:** Open [`web/index.html`](web/index.html) in a browser (or enable [GitHub Pages](https://pages.github.com/) on this repo) for a calm single-page entry point with all three paths.
 
-**Maintainer tools (optional):** [`tools/`](tools/) — DNS blocklist template and link validator (not required for readers).
+**Tools (optional):** [`tools/`](tools/) — investigation folder scaffolder, evidence JSON pipeline, LLM prompt generator, calm terminal UI, link validator. **AI editors:** [`.cursor/rules/`](.cursor/rules/personal-security-investigation.mdc) guardrails when this repo is open.
 
 ---
 
@@ -155,7 +155,8 @@ Personal_Security_Walkthrough/
 │   ├── index.html               ← calm hub (v2 tokens, gallery, no CDN)
 │   ├── design-tokens.css
 │   └── hub.css
-├── tools/                       ← optional MIT helpers (blocklist template, link check)
+├── tools/                       ← scaffolder, evidence JSON, LLM prompt gen, link check
+├── .cursor/rules/               ← AI editor guardrails (Cursor)
 ├── Start-Guide/
 │   ├── Quick-Start-Guide.md
 │   ├── When-and-How_to-Escalate.md

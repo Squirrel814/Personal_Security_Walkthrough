@@ -106,7 +106,20 @@ Personal_Security_Walkthrough/
 - Phase 6 curriculum — quiz + flashcards (`curriculum/`) — optional v2 community layer
 - Personal Security Command Center app — future (gem Section 10)
 
-**Next backlog:** Optional `export_blocklist.py`
+**Phase 8 — evidence pipeline + AI tooling (DONE 2026-06-27):**
+
+| Deliverable | Path |
+|-------------|------|
+| JSON schema | `tools/evidence_schema.json` |
+| Stdlib validator + library | `tools/evidence_lib.py`, `tools/validate_evidence_json.py` |
+| Metadata collector | `tools/collect_file_metadata.py` |
+| LLM prompt generator | `tools/generate_llm_prompt.py` |
+| Pro summary generator | `tools/generate_pro_summary.py` |
+| Calm terminal UI | `tools/psw_calm_ui.py` |
+| Cursor guardrails | `.cursor/rules/personal-security-investigation.mdc` |
+| Scaffolder emits evidence JSON | `tools/scaffold_investigation_folder.py` (`--os`) |
+
+**Next backlog:** Optional `export_blocklist.py`; retro TUI polish; bidirectional Markdown ↔ JSON sync
 
 **Phase 6d — inline infograph thumbnails (DONE 2026-06-27):**
 - Start-Guide, defense, minimal-tools frameworks, project structure, and LLM paste-in framework
