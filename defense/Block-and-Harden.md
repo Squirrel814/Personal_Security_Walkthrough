@@ -57,7 +57,7 @@ DNS sinkholing drops resolution for known malware, phishing, and ad-tracking dom
 
 ### Blocklist export (for Pi-hole / hosts)
 
-Save custom domains you documented from investigation (harassment-related C2 only, not people’s blogs) to a local list. Future repo `tools/blocklist_export_template.txt` will mirror this format:
+Save custom domains you documented from investigation (harassment-related C2 only, not people’s blogs) to a local list. Copy [`tools/blocklist_export_template.txt`](../tools/blocklist_export_template.txt) into your investigation folder:
 
 ```
 # Personal blocklist — YYYY-MM-DD — investigation ref

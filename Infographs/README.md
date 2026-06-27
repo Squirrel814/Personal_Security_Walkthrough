@@ -17,7 +17,7 @@ Parchment-style visual guides for the repo. **Style reference:** `Investigation-
 | [Document-First.jpg](Document-First.jpg) | Scare tactics → document first | [Quick Start](../Start-Guide/Quick-Start-Guide.md) | Raccoon |
 | [LLM-Co-Pilot-Flow.jpg](LLM-Co-Pilot-Flow.jpg) | Safe LLM session steps | [Framework](../My_Security_Investigation_Framework_v1.0.md) | Squirrel *(reprompt — disk shows Raccoon)* |
 | [Summary-for-Professionals.jpg](Summary-for-Professionals.jpg) | One-page pro summary | [Prepare summary](../Start-Guide/How-to-Prepare-a-Professional-Summary.md) | Fox |
-| `0846e0d2-1497-4252-bcb6-88e06da4e863.jpg` | Week 1 stabilize | [Block and Harden](../defense/Block-and-Harden.md) | Badger — **rename to** `Week-1-Stabilize.jpg` |
+| [Week-1-Stabilize.jpg](Week-1-Stabilize.jpg) | Week 1 stabilize | [Block and Harden](../defense/Block-and-Harden.md) | Badger |
 
 **Web hub:** [web/index.html](../web/index.html) embeds shipped set with logic-first alt text.
 

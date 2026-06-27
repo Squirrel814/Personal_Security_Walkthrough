@@ -69,6 +69,8 @@ Investigate first → then defend. No hacking back.
 
 **Web hub:** Open [`web/index.html`](web/index.html) in a browser (or enable [GitHub Pages](https://pages.github.com/) on this repo) for a calm single-page entry point with all three paths.
 
+**Maintainer tools (optional):** [`tools/`](tools/) — DNS blocklist template and link validator (not required for readers).
+
 ---
 
 ## How the pieces fit together
@@ -114,7 +116,7 @@ v2 infographs live in [`Infographs/`](Infographs/) (parchment + cyan glow style)
 | [Document first](Infographs/Document-First.jpg) | [Quick Start](Start-Guide/Quick-Start-Guide.md) |
 | [LLM co-pilot flow](Infographs/LLM-Co-Pilot-Flow.jpg) | [Framework paste-in](My_Security_Investigation_Framework_v1.0.md) |
 | [Summary for professionals](Infographs/Summary-for-Professionals.jpg) | [Professional summary](Start-Guide/How-to-Prepare-a-Professional-Summary.md) |
-| [Week 1 — stabilize](Infographs/0846e0d2-1497-4252-bcb6-88e06da4e863.jpg) | [Block and Harden](defense/Block-and-Harden.md) |
+| [Week 1 — stabilize](Infographs/Week-1-Stabilize.jpg) | [Block and Harden](defense/Block-and-Harden.md) |
 
 **Escalate flowchart (exact text):** [Infograph_When-to-Escalate.svg](Infograph_When-to-Escalate.svg) · [When & How to Escalate](Start-Guide/When-and-How_to-Escalate.md)
 
@@ -143,6 +145,7 @@ Personal_Security_Walkthrough/
 │   ├── index.html               ← calm hub (v2 tokens, gallery, no CDN)
 │   ├── design-tokens.css
 │   └── hub.css
+├── tools/                       ← optional MIT helpers (blocklist template, link check)
 ├── Start-Guide/
 │   ├── Quick-Start-Guide.md
 │   ├── When-and-How_to-Escalate.md

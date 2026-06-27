@@ -68,7 +68,7 @@ Personal_Security_Walkthrough/
 | `README.md` Visual section v2 | ✅ DONE | Agent |
 | Mascot assignment plan v1.2 | ✅ DONE (Agents-Designs-Ideas) | Agent |
 | Reprompt infographs (LLM Squirrel, Escalate, Evidence, Platform, Grid…) | 🎨 **User** | User |
-| Rename `0846e0d2-...jpg` → `Week-1-Stabilize.jpg` | ⏳ After User confirms | Either |
+| Rename `0846e0d2-...jpg` → `Week-1-Stabilize.jpg` | ✅ DONE | User |
 | Legacy root `Infograph_*` → `Archived/` | ⏳ After v2 escalate JPG ships | Agent |
 | Git push | ⏳ When batch ready | Agent |
 
@@ -76,7 +76,16 @@ Personal_Security_Walkthrough/
 - Swap gallery images when reprompts land
 - Update hub + README links if filenames change
 
-**Next backlog:** Phase 6 curriculum (`curriculum/quiz`, flashcards) or Phase 7 `tools/` — see `GeminiResearch_Personal-Security-Defense/REPO_EXPANSION_VISION.md`
+**Phase 7 tools (DONE 2026-06-27):**
+- `tools/blocklist_export_template.txt` — Pi-hole / hosts format (linked from Block-and-Harden.md)
+- `tools/validate_walkthrough_links.py` — internal link checker (stdlib Python)
+- `tools/README.md`
+
+**Deferred (not required for walkthrough):**
+- Phase 6 curriculum — quiz + flashcards (`curriculum/`) — optional v2 community layer
+- Personal Security Command Center app — future (gem Section 10)
+
+**Next backlog:** Phase 6c gallery swap when User art lands; git push when ready
 
 **Back Burner for Full context/scope of project: **
 README.md for the repo:

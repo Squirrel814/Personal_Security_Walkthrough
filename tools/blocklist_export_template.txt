@@ -1,0 +1,19 @@
+# Personal blocklist — YYYY-MM-DD — investigation ref
+# Personal Security Walkthrough — tools/blocklist_export_template.txt
+#
+# USE: Domains YOU documented from investigation (malware C2, phishing hosts).
+# NOT FOR: Entire social platforms, personal blogs, or retaliation (~95% ethics).
+#
+# Pair with: defense/Block-and-Harden.md
+# Log changes in investigation_log_YYYY-MM-DD.md before applying on router or Pi-hole.
+#
+# --- Pi-hole / AdGuard (one domain per line) ---
+# malware-example.bad
+# c2-suspicious.example
+#
+# --- hosts file (Windows: C:\Windows\System32\drivers\etc\hosts) ---
+# 0.0.0.0 malware-example.bad
+# 0.0.0.0 c2-suspicious.example
+#
+# --- Optional: investigation tag per line (comment) ---
+# malware-example.bad    # inv-2026-06-27 log line 42
