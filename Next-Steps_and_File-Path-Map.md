@@ -47,7 +47,10 @@ Personal_Security_Walkthrough/
 - `defense/Platform-Safety-X-and-Social.md`
 - Source: `Personal-Security-Defense_CANONICAL.md` (Gemini) — Options A + C
 
-**Next backlog:** Phase 6 curriculum (`curriculum/`, `web/`) or Phase 7 `tools/` — see `GeminiResearch_Personal-Security-Defense/REPO_EXPANSION_VISION.md`
+**Phase 6 web hub (DONE 2026-06-27):**
+- `web/index.html` — Option B from CANONICAL §7
+
+**Next backlog:** Phase 6 curriculum (`curriculum/quiz`, flashcards) or Phase 7 `tools/` — see `GeminiResearch_Personal-Security-Defense/REPO_EXPANSION_VISION.md`
 
 **Back Burner for Full context/scope of project: **
 README.md for the repo:

@@ -67,6 +67,8 @@ After you document and check [escalation criteria](Start-Guide/When-and-How_to-E
 
 Investigate first → then defend. No hacking back.
 
+**Web hub:** Open [`web/index.html`](web/index.html) in a browser (or enable [GitHub Pages](https://pages.github.com/) on this repo) for a calm single-page entry point with all three paths.
+
 ---
 
 ## How the pieces fit together
@@ -125,6 +127,8 @@ Personal_Security_Walkthrough/
 │   ├── Block-and-Harden.md
 │   ├── Safe-Removal-After-Documentation.md
 │   └── Platform-Safety-X-and-Social.md
+├── web/
+│   └── index.html               ← calm hub (Investigate | Block | Escalate)
 ├── Start-Guide/
 │   ├── Quick-Start-Guide.md
 │   ├── When-and-How_to-Escalate.md
