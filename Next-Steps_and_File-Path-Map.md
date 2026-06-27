@@ -77,8 +77,10 @@ Personal_Security_Walkthrough/
 - Update hub + README links if filenames change
 
 **Phase 7 tools (DONE 2026-06-27):**
+- `tools/scaffold_investigation_folder.py` — dated Investigation_YYYY-MM-DD/ on reader machine
 - `tools/blocklist_export_template.txt` — Pi-hole / hosts format (linked from Block-and-Harden.md)
 - `tools/validate_walkthrough_links.py` — internal link checker (stdlib Python)
+- `.github/workflows/validate-links.yml` — runs validator on push/PR to main
 - `tools/README.md`
 
 **Deferred (not required for walkthrough):**

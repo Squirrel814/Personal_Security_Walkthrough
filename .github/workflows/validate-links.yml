@@ -1,0 +1,15 @@
+name: Validate internal links
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run link validator
+        run: python tools/validate_walkthrough_links.py
