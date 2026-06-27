@@ -79,9 +79,9 @@ Use this section when you have finished your initial documentation and want a cl
 
 ### Infographic (image)
 
-![When to Escalate — decision flowchart (SVG)](../Infograph_When-to-Escalate.svg)
+![When to Escalate — decision flowchart](../Infographs/When-to-Escalate.jpg)
 
-*v2 parchment JPG coming in `Infographs/When-to-Escalate.jpg`. Legacy flat JPG: [Archived copy](../Infographs/Archived/Infograph_When-to-Escalate.jpg).*
+*Text-accurate version also available as [Infograph_When-to-Escalate.svg](../Infograph_When-to-Escalate.svg) (screen readers and printing). Legacy flat JPG: [Archived copy](../Infographs/Archived/Infograph_When-to-Escalate.jpg).*
 
 ### Visual flowchart (Mermaid)
 

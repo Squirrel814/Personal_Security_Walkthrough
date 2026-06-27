@@ -15,7 +15,8 @@ Parchment-style visual guides for the repo. **Style reference:** `Investigation-
 | [Personal-Security-Walkthrough.jpg](Personal-Security-Walkthrough.jpg) | Three-path overview | [Quick Start](../Start-Guide/Quick-Start-Guide.md) | Squirrel |
 | [Investigation-Flow.jpg](Investigation-Flow.jpg) | Six investigation phases | [Minimal Tools](../minimal-tools/windows/My_Security_Framework_Windows-OS_v1.1_Minimal_Tools.md) | Raccoon |
 | [Document-First.jpg](Document-First.jpg) | Scare tactics → document first | [Quick Start](../Start-Guide/Quick-Start-Guide.md) | Raccoon |
-| [LLM-Co-Pilot-Flow.jpg](LLM-Co-Pilot-Flow.jpg) | Safe LLM session steps | [Framework](../My_Security_Investigation_Framework_v1.0.md) | Squirrel *(reprompt — disk shows Raccoon)* |
+| [LLM-Co-Pilot-Flow.jpg](LLM-Co-Pilot-Flow.jpg) | Safe LLM session steps | [Framework](../My_Security_Investigation_Framework_v1.0.md) | Squirrel |
+| [When-to-Escalate.jpg](When-to-Escalate.jpg) | Decision ladder Q1–Q5 | [When & How to Escalate](../Start-Guide/When-and-How_to-Escalate.md) | Owl |
 | [Summary-for-Professionals.jpg](Summary-for-Professionals.jpg) | One-page pro summary | [Prepare summary](../Start-Guide/How-to-Prepare-a-Professional-Summary.md) | Fox |
 | [Week-1-Stabilize.jpg](Week-1-Stabilize.jpg) | Week 1 stabilize | [Block and Harden](../defense/Block-and-Harden.md) | Badger |
 
@@ -27,7 +28,6 @@ Parchment-style visual guides for the repo. **Style reference:** `Investigation-
 
 | Target file | Guide | Mascot |
 |-------------|-------|--------|
-| `When-to-Escalate.jpg` | [When & How to Escalate](../Start-Guide/When-and-How_to-Escalate.md) | Owl — match [SVG](../Infograph_When-to-Escalate.svg) text |
 | `Your-Evidence-Package.jpg` | [Escalate guide](../Start-Guide/When-and-How_to-Escalate.md) | Raccoon |
 | `Platform-Safety.jpg` | [Platform Safety](../defense/Platform-Safety-X-and-Social.md) | Fox |
 

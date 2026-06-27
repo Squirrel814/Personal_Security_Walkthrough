@@ -21,6 +21,12 @@ Personal_Security_Walkthrough/
 │   └── linux/ 
 │       └── My_Security_Framework_Linux_v1.1_Full_Deep_Dive.md
 ├── defense/                     ← Phase 5 DONE
+├── tools/                       ← Phase 7 DONE
+│   ├── scaffold_investigation_folder.py
+│   ├── validate_walkthrough_links.py
+│   └── blocklist_export_template.txt
+├── .github/workflows/
+│   └── validate-links.yml       ← Phase 7b CI (push + PR to main)
 ├── web/
 │   ├── index.html               ← Phase 6b DONE 2026-06-27 (v2 hub)
 │   ├── design-tokens.css
@@ -67,14 +73,15 @@ Personal_Security_Walkthrough/
 | `web/index.html` v2 — gallery, escalate criteria, platform table, HIBP prose | ✅ DONE | Agent |
 | `README.md` Visual section v2 | ✅ DONE | Agent |
 | Mascot assignment plan v1.2 | ✅ DONE (Agents-Designs-Ideas) | Agent |
-| Reprompt infographs (LLM Squirrel, Escalate, Evidence, Platform, Grid…) | 🎨 **User** | User |
+| Reprompt infographs (LLM Squirrel, Escalate, Evidence, Platform, Grid…) | 🎨 **User** — LLM + Escalate shipped | User |
 | Rename `0846e0d2-...jpg` → `Week-1-Stabilize.jpg` | ✅ DONE | User |
-| Legacy root `Infograph_*` → `Archived/` | ⏳ After v2 escalate JPG ships | Agent |
-| Git push | ⏳ When batch ready | Agent |
+| Legacy root `Infograph_*` → `Archived/` | ✅ DONE | Agent |
+| Git push | ✅ This session | Agent |
 
-**Phase 6c — blocked on User art:**
-- Swap gallery images when reprompts land
-- Update hub + README links if filenames change
+**Phase 6c — partial (User art landing):**
+- ✅ `LLM-Co-Pilot-Flow.jpg` (Squirrel), `When-to-Escalate.jpg` (Owl) on disk
+- Wire into web gallery + README when committed
+- Remaining: Evidence Package, Platform Safety, Block-and-Harden Grid
 
 **Phase 7 tools (DONE 2026-06-27):**
 - `tools/scaffold_investigation_folder.py` — dated Investigation_YYYY-MM-DD/ on reader machine
@@ -83,11 +90,21 @@ Personal_Security_Walkthrough/
 - `.github/workflows/validate-links.yml` — runs validator on push/PR to main
 - `tools/README.md`
 
+**Phase 7b — CI / Pull Requests (DONE 2026-06-27):**
+
+| What | Detail |
+|------|--------|
+| **PR** | Pull Request — proposed changes merged into `main` after review |
+| **Workflow** | `.github/workflows/validate-links.yml` |
+| **Triggers** | Every `pull_request` to `main` and every `push` to `main` |
+| **Check** | `python tools/validate_walkthrough_links.py` must pass |
+| **Contributor flow** | Fork → branch → PR → green check → merge (see CONTRIBUTING.md) |
+
 **Deferred (not required for walkthrough):**
 - Phase 6 curriculum — quiz + flashcards (`curriculum/`) — optional v2 community layer
 - Personal Security Command Center app — future (gem Section 10)
 
-**Next backlog:** Phase 6c gallery swap when User art lands; git push when ready
+**Next backlog:** Remaining infographs (Evidence, Platform, Grid); optional `export_blocklist.py`
 
 **Back Burner for Full context/scope of project: **
 README.md for the repo:

@@ -115,12 +115,13 @@ v2 infographs live in [`Infographs/`](Infographs/) (parchment + cyan glow style)
 | [Investigation flow — six phases](Infographs/Investigation-Flow.jpg) | [Minimal Tools](minimal-tools/windows/My_Security_Framework_Windows-OS_v1.1_Minimal_Tools.md) |
 | [Document first](Infographs/Document-First.jpg) | [Quick Start](Start-Guide/Quick-Start-Guide.md) |
 | [LLM co-pilot flow](Infographs/LLM-Co-Pilot-Flow.jpg) | [Framework paste-in](My_Security_Investigation_Framework_v1.0.md) |
+| [When to escalate](Infographs/When-to-Escalate.jpg) | [When & How to Escalate](Start-Guide/When-and-How_to-Escalate.md) |
 | [Summary for professionals](Infographs/Summary-for-Professionals.jpg) | [Professional summary](Start-Guide/How-to-Prepare-a-Professional-Summary.md) |
 | [Week 1 — stabilize](Infographs/Week-1-Stabilize.jpg) | [Block and Harden](defense/Block-and-Harden.md) |
 
-**Escalate flowchart (exact text):** [Infograph_When-to-Escalate.svg](Infograph_When-to-Escalate.svg) · [When & How to Escalate](Start-Guide/When-and-How_to-Escalate.md)
+**Escalate flowchart (exact text fallback):** [Infograph_When-to-Escalate.svg](Infograph_When-to-Escalate.svg)
 
-Legacy flat v1 JPGs at repo root remain until v2 `When-to-Escalate.jpg` ships — see [Infographs/README.md](Infographs/README.md).
+Legacy flat v1 JPGs are in [Infographs/Archived/](Infographs/Archived/) — see [Infographs/README.md](Infographs/README.md).
 
 ---
 

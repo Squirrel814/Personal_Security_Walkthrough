@@ -51,6 +51,8 @@ Use the issue templates when available (`.github/ISSUE_TEMPLATE/`).
    - Which files/platforms you tested or reviewed
    - Any security or ethics considerations
 
+**CI:** Pull requests to `main` run the internal link validator (`.github/workflows/validate-links.yml`). Fix broken relative links before merge. Locally: `python tools/validate_walkthrough_links.py`.
+
 ### 3. Content standards
 
 - **Commands:** Prefer built-in, read-only inspection (`stat`, Properties, `ss`, exports to CSV). Flag anything requiring admin rights or third-party uploads (e.g. VirusTotal) with a privacy note.
