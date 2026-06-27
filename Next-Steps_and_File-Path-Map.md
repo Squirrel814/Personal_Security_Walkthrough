@@ -63,7 +63,7 @@ Personal_Security_Walkthrough/
 **Phase 6a web hub (DONE 2026-06-27):**
 - `web/index.html` — Option B from CANONICAL §7 (flat pastel v1)
 
-**Phase 6b visual + web alignment (IN PROGRESS 2026-06-27):**
+**Phase 6b visual + web alignment (DONE 2026-06-27):**
 
 | Task | Status | Owner |
 |------|--------|-------|
@@ -73,15 +73,17 @@ Personal_Security_Walkthrough/
 | `web/index.html` v2 — gallery, escalate criteria, platform table, HIBP prose | ✅ DONE | Agent |
 | `README.md` Visual section v2 | ✅ DONE | Agent |
 | Mascot assignment plan v1.2 | ✅ DONE (Agents-Designs-Ideas) | Agent |
-| Reprompt infographs (LLM Squirrel, Escalate, Evidence, Platform, Grid…) | 🎨 **User** — LLM + Escalate shipped | User |
-| Rename `0846e0d2-...jpg` → `Week-1-Stabilize.jpg` | ✅ DONE | User |
 | Legacy root `Infograph_*` → `Archived/` | ✅ DONE | Agent |
-| Git push | ✅ This session | Agent |
 
-**Phase 6c — partial (User art landing):**
-- ✅ `LLM-Co-Pilot-Flow.jpg` (Squirrel), `When-to-Escalate.jpg` (Owl) on disk
-- Wire into web gallery + README when committed
-- Remaining: Evidence Package, Platform Safety, Block-and-Harden Grid
+**Phase 6c — v2 infograph gallery (DONE 2026-06-27):**
+
+| Task | Status | Owner |
+|------|--------|-------|
+| All 16 v2 JPGs on disk | ✅ DONE | User |
+| Full gallery in `web/index.html` (16 figures, roadmap table removed) | ✅ DONE | Agent |
+| `README.md` + `Infographs/README.md` — complete inventory | ✅ DONE | Agent |
+| `VISUAL-PROMPTS_v2.md` — all ✅ Shipped | ✅ DONE | Agent |
+| Git push | ✅ This session | Agent |
 
 **Phase 7 tools (DONE 2026-06-27):**
 - `tools/scaffold_investigation_folder.py` — dated Investigation_YYYY-MM-DD/ on reader machine
@@ -104,7 +106,7 @@ Personal_Security_Walkthrough/
 - Phase 6 curriculum — quiz + flashcards (`curriculum/`) — optional v2 community layer
 - Personal Security Command Center app — future (gem Section 10)
 
-**Next backlog:** Remaining infographs (Evidence, Platform, Grid); optional `export_blocklist.py`
+**Next backlog:** Optional `export_blocklist.py`; link infographs from individual markdown guides as needed
 
 **Back Burner for Full context/scope of project: **
 README.md for the repo:

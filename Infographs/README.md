@@ -8,7 +8,7 @@ Parchment-style visual guides for the repo. **Style reference:** `Investigation-
 
 ---
 
-## Shipped (v2 — in gallery)
+## Shipped (v2 — complete set)
 
 | File | Topic | Guide link | Mascot |
 |------|-------|------------|--------|
@@ -17,43 +17,30 @@ Parchment-style visual guides for the repo. **Style reference:** `Investigation-
 | [Document-First.jpg](Document-First.jpg) | Scare tactics → document first | [Quick Start](../Start-Guide/Quick-Start-Guide.md) | Raccoon |
 | [LLM-Co-Pilot-Flow.jpg](LLM-Co-Pilot-Flow.jpg) | Safe LLM session steps | [Framework](../My_Security_Investigation_Framework_v1.0.md) | Squirrel |
 | [When-to-Escalate.jpg](When-to-Escalate.jpg) | Decision ladder Q1–Q5 | [When & How to Escalate](../Start-Guide/When-and-How_to-Escalate.md) | Owl |
+| [Your-Evidence-Package.jpg](Your-Evidence-Package.jpg) | Evidence folder handoff | [When & How to Escalate](../Start-Guide/When-and-How_to-Escalate.md) | Raccoon |
 | [Summary-for-Professionals.jpg](Summary-for-Professionals.jpg) | One-page pro summary | [Prepare summary](../Start-Guide/How-to-Prepare-a-Professional-Summary.md) | Fox |
+| [Choosing-Professional-Help.jpg](Choosing-Professional-Help.jpg) | Professional routing | [Choosing Help](../Start-Guide/Choosing-the-Right-Professional-Help.md) | Deer |
+| [Forensic-Image.jpg](Forensic-Image.jpg) | DIY vs professional imaging | [Forensic Image](../Start-Guide/How-to-Create-a-Forensic-Image.md) | Mole |
+| [Law-Enforcement-Expectations.jpg](Law-Enforcement-Expectations.jpg) | LE reporting expectations | [Law Enforcement](../Start-Guide/What-to-Expect-When-Working-with-Law-Enforcement.md) | Fox |
 | [Week-1-Stabilize.jpg](Week-1-Stabilize.jpg) | Week 1 stabilize | [Block and Harden](../defense/Block-and-Harden.md) | Badger |
+| [Block-and-Harden-Grid.jpg](Block-and-Harden-Grid.jpg) | 2×2 hardening grid | [Block and Harden](../defense/Block-and-Harden.md) | Badger + specialists |
+| [Platform-Safety.jpg](Platform-Safety.jpg) | Social platform defense | [Platform Safety](../defense/Platform-Safety-X-and-Social.md) | Fox |
+| [Safe-Removal.jpg](Safe-Removal.jpg) | Quarantine after documentation | [Safe Removal](../defense/Safe-Removal-After-Documentation.md) | Toad |
+| [After-Incident-Recovery.jpg](After-Incident-Recovery.jpg) | Post-incident checklist | [After Incident](../Start-Guide/Protecting-Yourself-After-an-Incident.md) | Otter |
+| [Breach-Check-Inventory.jpg](Breach-Check-Inventory.jpg) | HIBP logging checklist | [Web hub — breach check](../web/index.html#breach-check) | Chipmunk |
 
-**Web hub:** [web/index.html](../web/index.html) embeds shipped set with logic-first alt text.
+**Web hub:** [web/index.html](../web/index.html) — full gallery with logic-first alt text.
 
----
-
-## Reprompt in progress (User art)
-
-| Target file | Guide | Mascot |
-|-------------|-------|--------|
-| `Your-Evidence-Package.jpg` | [Escalate guide](../Start-Guide/When-and-How_to-Escalate.md) | Raccoon |
-| `Platform-Safety.jpg` | [Platform Safety](../defense/Platform-Safety-X-and-Social.md) | Fox |
+**Escalate text fallback:** [Infograph_When-to-Escalate.svg](../Infograph_When-to-Escalate.svg) (exact labels if JPG text garbles).
 
 ---
 
-## Planned
-
-| Target file | Guide | Mascot |
-|-------------|-------|--------|
-| `Block-and-Harden-Grid.jpg` | [Block and Harden](../defense/Block-and-Harden.md) | Badger + Beaver, Hedgehog, Fox, Turtle |
-| `Safe-Removal.jpg` | [Safe Removal](../defense/Safe-Removal-After-Documentation.md) | Toad |
-| `Forensic-Image.jpg` | [Forensic Image](../Start-Guide/How-to-Create-a-Forensic-Image.md) | Mole |
-| `Choosing-Professional-Help.jpg` | [Choosing Help](../Start-Guide/Choosing-the-Right-Professional-Help.md) | Deer |
-| `After-Incident-Recovery.jpg` | [After Incident](../Start-Guide/Protecting-Yourself-After-an-Incident.md) | Otter |
-| `Law-Enforcement-Expectations.jpg` | [Law Enforcement](../Start-Guide/What-to-Expect-When-Working-with-Law-Enforcement.md) | Fox |
-
----
-
-## Legacy (deprecate when v2 gallery is complete)
+## Legacy (not style authority)
 
 | Asset | Location | Notes |
 |-------|----------|-------|
-| `Infograph_First-Steps.jpg`, `_2.jpg` | Repo root | Flat v1 — move to `Archived/` when README updated |
-| `Infograph_When-to-Escalate.jpg` | Repo root | Flat v1 JPG |
+| Flat v1 JPGs | `Archived/` | Superseded by v2 parchment set |
 | `Infograph_When-to-Escalate.svg` | Repo root | **Keep** — text-accurate a11y fallback |
-| Older drafts | `Archived/` | Not style authority |
 
 ---
 

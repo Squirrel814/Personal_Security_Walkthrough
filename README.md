@@ -116,8 +116,17 @@ v2 infographs live in [`Infographs/`](Infographs/) (parchment + cyan glow style)
 | [Document first](Infographs/Document-First.jpg) | [Quick Start](Start-Guide/Quick-Start-Guide.md) |
 | [LLM co-pilot flow](Infographs/LLM-Co-Pilot-Flow.jpg) | [Framework paste-in](My_Security_Investigation_Framework_v1.0.md) |
 | [When to escalate](Infographs/When-to-Escalate.jpg) | [When & How to Escalate](Start-Guide/When-and-How_to-Escalate.md) |
+| [Your evidence package](Infographs/Your-Evidence-Package.jpg) | [When & How to Escalate](Start-Guide/When-and-How_to-Escalate.md) |
 | [Summary for professionals](Infographs/Summary-for-Professionals.jpg) | [Professional summary](Start-Guide/How-to-Prepare-a-Professional-Summary.md) |
+| [Choosing professional help](Infographs/Choosing-Professional-Help.jpg) | [Choosing help](Start-Guide/Choosing-the-Right-Professional-Help.md) |
+| [Forensic image](Infographs/Forensic-Image.jpg) | [Forensic image guide](Start-Guide/How-to-Create-a-Forensic-Image.md) |
+| [Law enforcement expectations](Infographs/Law-Enforcement-Expectations.jpg) | [Working with LE](Start-Guide/What-to-Expect-When-Working-with-Law-Enforcement.md) |
 | [Week 1 — stabilize](Infographs/Week-1-Stabilize.jpg) | [Block and Harden](defense/Block-and-Harden.md) |
+| [Block & harden grid](Infographs/Block-and-Harden-Grid.jpg) | [Block and Harden](defense/Block-and-Harden.md) |
+| [Platform safety](Infographs/Platform-Safety.jpg) | [Platform safety (X & social)](defense/Platform-Safety-X-and-Social.md) |
+| [Safe removal](Infographs/Safe-Removal.jpg) | [Safe removal after documentation](defense/Safe-Removal-After-Documentation.md) |
+| [After-incident recovery](Infographs/After-Incident-Recovery.jpg) | [Protecting yourself after an incident](Start-Guide/Protecting-Yourself-After-an-Incident.md) |
+| [Breach check inventory](Infographs/Breach-Check-Inventory.jpg) | [Web hub — breach check](web/index.html#breach-check) |
 
 **Escalate flowchart (exact text fallback):** [Infograph_When-to-Escalate.svg](Infograph_When-to-Escalate.svg)
 
@@ -156,9 +165,7 @@ Personal_Security_Walkthrough/
 │   ├── How-to-Prepare-a-Professional-Summary.md
 │   ├── Protecting-Yourself-After-an-Incident.md
 │   └── shared-templates/{templates,examples}/
-├── Infograph_First-Steps*.jpg
-├── Infograph_When-to-Escalate.jpg
-└── Infograph_When-to-Escalate.svg
+└── Infograph_When-to-Escalate.svg   ← escalate text fallback (a11y)
 ```
 
 ---

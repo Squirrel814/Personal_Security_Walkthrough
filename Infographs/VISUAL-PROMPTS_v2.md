@@ -54,10 +54,11 @@ Species-only on art (no character names on image). Optional lore names (Squeaky,
 | **Beaver** | Network paths | Block-and-harden network quadrant |
 | **Hedgehog** | Account / edge fortifier | 2FA / firewall quadrant |
 | **Turtle** | Patient shield | OS update quadrant |
-| **Otter** | Recovery / flow | After-incident (planned) |
-| **Mole** | Deep evidence | Forensic image (planned) |
-| **Deer** | Professional routing | Choosing help (planned) |
-| **Toad** | Safe removal | Quarantine after documentation (planned) |
+| **Otter** | Recovery / flow | After-incident recovery |
+| **Mole** | Deep evidence | Forensic image |
+| **Deer** | Professional routing | Choosing help |
+| **Toad** | Safe removal | Quarantine after documentation |
+| **Chipmunk** | Breach logging | Breach check inventory (optional) |
 | **Hawk / Bat** | Passive scan | Network-check emphasis (optional inset only) |
 
 ---
@@ -130,17 +131,18 @@ photorealistic humans, official government seals implying endorsement
 | `Investigation-Flow.jpg` | ✅ Shipped | Raccoon ×6 | **Primary ref** |
 | `Document-First.jpg` | ✅ Shipped | Raccoon | Match refs |
 | `Summary-for-Professionals.jpg` | ✅ Shipped | Fox | Match refs |
-| `Week-1-Stabilize.jpg` | ✅ Shipped (`0846e0d2-...jpg` — rename) | Badger | Match refs |
-| `LLM-Co-Pilot-Flow.jpg` | 🔄 **Reprompt** (disk has Raccoon → Squirrel) | Squirrel | Match refs |
-| `When-to-Escalate.jpg` | 🔄 Reprompt v2 | Owl | Match refs; verify text vs SVG |
-| `Your-Evidence-Package.jpg` | 🔄 Reprompt v2 | Raccoon | Match refs |
-| `Platform-Safety.jpg` | 🔄 Reprompt v2 | Fox | Match refs; not Archived style |
-| `Block-and-Harden-Grid.jpg` | 📋 Planned | Badger + 4 specialists | Match refs |
-| `Safe-Removal.jpg` | 📋 Planned | Toad | Match refs |
-| `Forensic-Image.jpg` | 📋 Planned | Mole | Match refs |
-| `Choosing-Professional-Help.jpg` | 📋 Planned | Deer | Match refs |
-| `After-Incident-Recovery.jpg` | 📋 Planned | Otter | Match refs |
-| `Law-Enforcement-Expectations.jpg` | 📋 Planned | Fox | Match refs |
+| `Week-1-Stabilize.jpg` | ✅ Shipped | Badger | Match refs |
+| `LLM-Co-Pilot-Flow.jpg` | ✅ Shipped | Squirrel | Match refs |
+| `When-to-Escalate.jpg` | ✅ Shipped | Owl | Match refs; verify text vs SVG |
+| `Your-Evidence-Package.jpg` | ✅ Shipped | Raccoon | Match refs |
+| `Platform-Safety.jpg` | ✅ Shipped | Fox | Match refs |
+| `Block-and-Harden-Grid.jpg` | ✅ Shipped | Badger + 4 specialists | Match refs |
+| `Safe-Removal.jpg` | ✅ Shipped | Toad | Match refs |
+| `Forensic-Image.jpg` | ✅ Shipped | Mole | Match refs |
+| `Choosing-Professional-Help.jpg` | ✅ Shipped | Deer | Match refs |
+| `After-Incident-Recovery.jpg` | ✅ Shipped | Otter | Match refs |
+| `Law-Enforcement-Expectations.jpg` | ✅ Shipped | Fox | Match refs |
+| `Breach-Check-Inventory.jpg` | ✅ Shipped (optional) | Chipmunk | Match refs |
 
 ---
 
@@ -247,14 +249,13 @@ BOTTOM CENTER: "Panic destroys evidence → Calm wins"
 BOTTOM RIGHT: small generic Windows · macOS · Linux icons in cyan (no trademark abuse)
 ```
 
----
 
 ## Prompt 04 — LLM Co-Pilot Flow (reprompt — Squirrel)
 
 **File:** `LLM-Co-Pilot-Flow.jpg`  
 **Ratio:** 16:9  
 **Mascot:** **Squirrel** (replaces Raccoon on current file)  
-**Status:** Reprompt required
+**Status:** Shipped
 
 ```
 [STYLE PREFIX]
@@ -290,7 +291,7 @@ BOTTOM BANNER (dark orange-brown parchment strip): amber triangle + "LLM explain
 **File:** `When-to-Escalate.jpg`  
 **Ratio:** 9:16 (vertical ladder) or 3:4  
 **Mascot:** Owl beside ladder (small — criteria text dominates)  
-**Status:** Reprompt v2 — **verify every label** against `Infograph_When-to-Escalate.svg`
+**Status:** Shipped — **verify every label** against `Infograph_When-to-Escalate.svg`
 
 ```
 [STYLE PREFIX]
@@ -325,6 +326,7 @@ MASCOT: Owl in tactical vest, perched beside Q2–Q3, reading glasses optional.
 FOOTER: "Panic destroys evidence → Calm wins"
 
 CRITICAL: If text garbles, regenerate or use SVG; do not paraphrase criteria.
+attached files are for style reference
 ```
 
 ---
@@ -334,7 +336,7 @@ CRITICAL: If text garbles, regenerate or use SVG; do not paraphrase criteria.
 **File:** `Your-Evidence-Package.jpg`  
 **Ratio:** 16:9  
 **Mascot:** Raccoon holding or gesturing to manila folder  
-**Status:** Reprompt v2 (ignore Archived version)
+**Status:** Shipped
 
 ```
 [STYLE PREFIX]
@@ -356,6 +358,7 @@ MASCOT: Raccoon, tactical vest, presenting folder.
 SUBTITLE: "You already did the hard part"
 
 FOOTER: "Document first · Not legal advice"
+attached files are for style reference
 ```
 
 ---
@@ -388,13 +391,14 @@ RIGHT:
 MASCOT: Fox, orange fur, tactical vest patch "DEFEND ONLY", professional stance.
 
 BOTTOM: "Template in Start-Guide"
+attached files are for style reference
 ```
 
 ---
 
 ## Prompt 08 — Week 1 Stabilize
 
-**File:** `Week-1-Stabilize.jpg` (rename from `0846e0d2-1497-4252-bcb6-88e06da4e863.jpg`)  
+**File:** `Week-1-Stabilize.jpg`
 **Ratio:** 3:4 or 9:16  
 **Mascot:** Badger (right, facing checklist)  
 **Status:** Shipped
@@ -416,6 +420,7 @@ FIVE checklist rows — light beige panels, cyan glow borders, empty checkbox le
 MASCOT: Badger, black-and-white face, dark teal tactical vest, serious calm expression.
 
 FOOTER: "Defense not retaliation · Own systems only"
+attached files are for style reference
 ```
 
 ---
@@ -425,7 +430,7 @@ FOOTER: "Defense not retaliation · Own systems only"
 **File:** `Platform-Safety.jpg`  
 **Ratio:** 1:1 or 16:9  
 **Mascot:** Fox with tablet  
-**Status:** Reprompt v2 — match Investigation-Flow / Overview style, **not** Archived folder look
+**Status:** Shipped
 
 ```
 [STYLE PREFIX]
@@ -443,6 +448,7 @@ CROSSED OUT center text with X marks: "Engage · Dox · Hack back"
 MASCOT: Fox, tactical vest "DEFEND ONLY", holding tablet beside browser.
 
 FOOTER: "Document for LE · Don't feed the scare campaign"
+attached files are for style reference
 ```
 
 ---
@@ -452,7 +458,7 @@ FOOTER: "Document for LE · Don't feed the scare campaign"
 **File:** `Block-and-Harden-Grid.jpg`  
 **Ratio:** 1:1 or 16:9  
 **Mascot:** Badger header + one specialist per quadrant  
-**Status:** Planned — CANONICAL §6 Brief 2  
+**Status:** Shipped
 **Guide:** `defense/Block-and-Harden.md`
 
 ```
@@ -483,6 +489,7 @@ Subtitle: "This device"
 CENTER OVERLAY (small): "Document → Comprehension gate → Escalate check → Then harden"
 
 FOOTER: "Defense not retaliation · Own systems only"
+attached files are for style reference
 ```
 
 ---
@@ -510,6 +517,7 @@ MASCOT: Toad in tactical vest beside step 2 — calm "purify don't panic-delete"
 CALLOUT: "Never wipe before professionals advise if escalation criteria met"
 
 FOOTER: "Defense not retaliation · Own systems only"
+attached files are for style reference
 ```
 
 ---
@@ -541,6 +549,7 @@ BOTTOM: drive → external drive arrow — "Bit-copy + SHA-256 log"
 MASCOT: Mole with tactical vest, gentle underground/cross-section motif (not scary).
 
 FOOTER: "Document first · Not legal advice"
+attached files are for style reference
 ```
 
 ---
@@ -569,6 +578,7 @@ CENTER: "Bring evidence package + professional summary"
 MASCOT: Deer, alert but calm, at the fork.
 
 FOOTER: "Panic destroys evidence → Calm wins"
+attached files are for style reference
 ```
 
 ---
@@ -595,6 +605,7 @@ CHECKLIST cards:
 MASCOT: Otter, tactical vest, calm supportive pose (flow/recovery — not playful game splash).
 
 FOOTER: "Defense not retaliation · Own systems only"
+attached files are for style reference
 ```
 
 ---
@@ -622,6 +633,7 @@ MASCOT: Fox, small corner, professional summary document prop.
 
 DISCLAIMER BAR: "Not legal advice · Procedures vary by location"
 No official police badges or seals implying endorsement.
+attached files are for style reference
 ```
 
 ---
@@ -649,36 +661,29 @@ SIDEBAR note: "k-anonymity prefix search · Do not paste live passwords"
 MASCOT: Chipmunk with clipboard, small.
 
 FOOTER: "Document first · Not legal advice"
+attached files are for style reference
 ```
 
 ---
 
-## Generation priority
+## Generation status
 
-| Priority | Prompt | Why |
-|----------|--------|-----|
-| 1 | **04** LLM Co-Pilot (Squirrel) | Canonical face wrong on disk |
-| 2 | **05** When to Escalate | Core escalate path; pairs with SVG |
-| 3 | **06** Evidence Package | Handoff before professional help |
-| 4 | **09** Platform Safety | Defense layer completeness |
-| 5 | **10** Block & Harden Grid | CANONICAL §6 gap |
-| 6 | **11–15** Companions | Start-Guide + defense depth |
+**All 16 prompts shipped** (2026-06-27). Gallery wired in `web/index.html`, `README.md`, and `Infographs/README.md`.
+
+Regenerate only if copy changes or JPG text garbles (use `Infograph_When-to-Escalate.svg` for escalate labels).
 
 ---
 
-## After generation
-
-1. Save to `Infographs/` (not `Archived/`) using target filename above  
-2. Rename `0846e0d2-1497-4252-bcb6-88e06da4e863.jpg` → `Week-1-Stabilize.jpg`  
-3. Update `web/index.html` gallery with logic-first alt text  
-4. Update `README.md` Visual section — v2 set only  
-5. Move legacy root `Infograph_*` to `Archived/` when v2 gallery ships  
+## Maintenance (after copy changes)
+1. Update `web/index.html` gallery alt text if labels change  
+2. Update `README.md` Visual section  
+3. Keep legacy drafts in `Archived/` — not style authority
 
 **Related docs:** `Agents-Designs-Ideas/Interwoven_Field-Team_Mascot-Assignment_Plan_v1.0.md` (v1.2)
 
 ---
 
-SquirrelUser-SQT: Year 1, Canopy | Thicket | Approved |  
+SquirrelUser-SQT: Year 1, Canopy | Thicket | 35:32:56 | All Infograph Photos Generated — v2 gallery shipped 2026-06-27  
 ---==[🐿️]==---
 
 *End of Visual Prompts v2*
